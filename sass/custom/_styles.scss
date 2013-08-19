@@ -4,7 +4,7 @@
 $bgcolor: transparent;
 $fgcolor1: #222222;
 $fgcolor2: #333333;
-$link-hover-color: #f27405;
+$link-hover-color: #4da7ca;
 
 html {
    background: transparent;
@@ -128,6 +128,10 @@ body > div {
         &:first-child { padding-top: 0.85em; }
     }
 
+    a.category {
+        font-family: "Helvetica Neue",Arial,sans-serif;
+    }
+
 }
 
 /*article > footer {
@@ -186,3 +190,16 @@ ul, ol {
     font-family: "Helvetica Neue",Arial,sans-serif;
     font-style: italic;
 }
+
+.month {
+    font-family: "Helvetica Neue",Arial,sans-serif;
+}
+
+.day {
+    font-family: "Helvetica Neue",Arial,sans-serif;
+}
+
+.categories {
+    font-family: "Helvetica Neue",Arial,sans-serif;
+}
+
