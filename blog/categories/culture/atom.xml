@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Culture | Eric Dodds]]></title>
+  <link href="http://ericdodds.github.io/blog/categories/culture/atom.xml" rel="self"/>
+  <link href="http://ericdodds.github.io/"/>
+  <updated>2013-08-19T13:53:03-04:00</updated>
+  <id>http://ericdodds.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Two Quotes on Journalism: One Old, One New]]></title>
+    <link href="http://ericdodds.github.io/blog/2012/10/29/two-quotes-on-journalism/"/>
+    <updated>2012-10-29T17:10:57-04:00</updated>
+    <id>http://ericdodds.github.io/blog/2012/10/29/two-quotes-on-journalism</id>
+    <content type="html"><![CDATA[<p>Happy <a href="http://www.usa.gov/Citizen/Topics/Voting.shtml">Election Day</a>. Below are two quotes on the subject of journalism, one from a great mind of the present, and one from a great mind of the past.</p>
+
+<h4>From the present:</h4>
+
+<blockquote><p>The post-fact literature is built in part on nostalgia for the world before people like Bigfoot showed up in the public sphere, for the days when Newsweek reflected moderately liberal consensus without also providing a platform for orthographically-challenged wingnuts to rant about the President. People who want those days back tell themselves (and anyone else who will listen) that they don’t want to impose their views on anybody. They just want agreement on the facts.
+&hellip;
+There’s no way to get Cronkite-like consensus without someone like Cronkite, and there’s no way to get someone like Cronkite in a world with an Internet; there will be no more men like him, because there will be no more jobs like his. To assume that this situation can be reversed, and everyone else will voluntarily sign on to the beliefs of some culturally dominant group, is a fantasy. To assume that they should, or at least that they should hold their tongue when they don’t, is Napoleonic in its self-regard. <strong>Yet this is what the people who long for the clarity of the old days are longing for.</strong></p></blockquote>
+
+<p><strong>—Clay Shirky</strong>, Oct. 17th, 2012
+from <em><a href="http://www.poynter.org/latest-news/everyday-ethics/191757/shirky-we-are-indeed-less-willing-to-agree-on-what-constitutes-truth/">‘We are indeed less willing to agree on what constitutes truth’</a></em></p>
+
+<h4>From the past:</h4>
+
+<blockquote><p>&ldquo;I can hardly regret having escaped the appalling waste of time and spirit which would have been involved in reading the war news or taking more than an artificial and formal part in conversations about the war. To read without military knowledge or good maps accounts of fighting which were distorted before they reached the Divisional general and further distorted before they left him and then "written up&rdquo; out of all recognition by jounralists, to strive to master what will be contradicted the next day, to fear and hope intensely on shaky evidence, is surely an ill use of the mind.</p></blockquote>
+
+<p>Even in peacetime <strong>I think those are very wrong who say that schoolboys should be encouraged to read the newspapers. Nearly all that a boy reads there in his teens will be known before he is twenty to have been false in emphasis and interpretation, if not in fact as well, and most of it will have lost all importance. Most of what he remembers he will therefore have to unlearn; and he will probably have acquired a taste for vulgarity and sensationalism</strong> and the fatal habit of fluttering from paragraph to paragraph to learn how an heiress has been divorced in California, a train derailed in France, and quadruplets born in New Zealand."</p>
+
+<p><strong>—CS Lewis</strong>, 1966
+from <em><a href="http://www.amazon.com/Surprised-Joy-Shape-Early-Life/dp/0156870118">Surprised by Joy</a></em></p>
+
+<p>It seems that the clarity of the old days might not have been so clear.</p>
+]]></content>
+  </entry>
+  
+</feed>

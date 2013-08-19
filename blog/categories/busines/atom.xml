@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Busines | Eric Dodds]]></title>
+  <link href="http://ericdodds.github.io/blog/categories/busines/atom.xml" rel="self"/>
+  <link href="http://ericdodds.github.io/"/>
+  <updated>2013-08-19T13:53:03-04:00</updated>
+  <id>http://ericdodds.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Mailbox App and the Illusion of Moving Information]]></title>
+    <link href="http://ericdodds.github.io/blog/2013/03/07/mailbox-app-and-the-illusion-of-moving-information/"/>
+    <updated>2013-03-07T14:50:43-05:00</updated>
+    <id>http://ericdodds.github.io/blog/2013/03/07/mailbox-app-and-the-illusion-of-moving-information</id>
+    <content type="html"><![CDATA[<p>I recently downloaded the much anticipated Mailbox app. It&rsquo;s a fine tool, designed well, with a pretty slick interface. Arguably, the most exciting feature of the product is it&rsquo;s ability to &lsquo;snooze&rsquo; messages and bring them back at various intervals. Selling the idea of an easily attainable inbox zero made a lot of people salivate.</p>
+
+<p><img src="http://ericdodds.com/v2/wp-content/uploads/2013/03/IMG_0870-e1362685058726.jpg" alt="IMG_0870" /></p>
+
+<p>Hopefully the app helps people, but I don&rsquo;t think it will solve one of the real problems (especially for teams) that we have with email, which is the tendency to use it as a to-do list &ndash; the <a href="http://mailboxapp.com/story">primary reason creators gave</a> for building the app.</p>
+
+<p>People are hungry for help because of the volume of email they receive. The medium has grown from an efficient person-to-person communication tool to a firehose of unrelated information from any and every possible source (including physical devices). Lots of that information needs to be acted on, not just consumed. Figuring out how to deal with the constant stream can be a tall task.</p>
+
+<p>Dealing with information and moving it around are two different things, though. Snoozing an email for a week is great, until you&rsquo;ve snoozed it every week for a month straight. At that point you&rsquo;ve given yourself a pat on the back for cleaning your inbox, when all you&rsquo;ve done is temporarily hidden something you need to do.</p>
+
+<p>Feeling good about hiding an email you need to act on is the same as feeling good about neatly labeling and filing past-due bills you need to pay.</p>
+
+<p>Tools like Mailbox do a great job of helping you move things around in a logical, efficient way. That&rsquo;s great for individuals who use email mostly on their mobile devices, but it&rsquo;s a far cry from <a href="http://visualidiot.com/articles/mailappapp">revolutionizing the tool itself</a>, especially for teams working on complex projects.</p>
+
+<p><del>The opportunity is so much larger than improving the moving process. We need tools that remove the manual labor associated with translating that information into the actions that move strategies forward and produce products and services. Right now that process is clunky, and the pain is magnified on mobile devices.</del></p>
+
+<p><del>Apps that allow creation of to-do&rsquo;s via email are a step in the right direction, but still require some manual labor and processing. <a href="http://www.taskforceapp.com/">Taskforce</a> is an interesting solution, but keeps email in the browser, and seems much less robust than Asana or Trello. (I&rsquo;d love to hear about other solutions I haven&rsquo;t come across.)</del></p>
+
+<p>UPDATE:</p>
+
+<p>Of course, this is the internet, and everything exists. Both <a href="http://do.com">do.com</a> and <a href="http://www.producteev.com/">Producteev</a> provide pretty slick Gmail gadgets that allow you to turn emails into tasks.</p>
+
+<p>The more I&rsquo;ve heard people talk about the Mailbox app, the more I&rsquo;ve noticed complaints that &ldquo;it screwed up Gmail on my computer.&rdquo; The aggravated users are referring to labels, and the specific way in which Mailbox uses them to categorize messages. Even though there was an explanation in the onboarding process, I&rsquo;ve run across a surprising number of people who deleted the app because the user flow didn&rsquo;t translate well between mobile and desktop.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Love is in the...Chinese Tech Company Culture? ]]></title>
+    <link href="http://ericdodds.github.io/blog/2012/12/14/love-is-in-the-chinese-tech-company-culture/"/>
+    <updated>2012-12-14T13:27:29-05:00</updated>
+    <id>http://ericdodds.github.io/blog/2012/12/14/love-is-in-the-chinese-tech-company-culture</id>
+    <content type="html"><![CDATA[<p>Company culture is incredibly important, and leaders have been known to allow very non-traditional activity to foster it. In China, one of those activities is encouraging love – the romantic kind – between their <em>employees</em>.</p>
+
+<p><strong>Fast Company reports</strong> on Alibaba&rsquo;s annual mass weddings performed by their CEO:</p>
+
+<blockquote><p>But Song was not the only woman wearing white at her wedding. In fact, she wasn&rsquo;t even the only bride. There were 324 others, all participating in a marriage ceremony led by Alibaba CEO Jack Ma, who performs a mass wedding for his employees every May. Song particularly remembers one thing Ma told the brides and grooms: &ldquo;Love is not something you say. It&rsquo;s something you do&mdash;starting tonight!&rdquo;</p></blockquote>
+
+<p><em><a href="http://www.fastcompany.com/1802729/leaders-alibaba-youku-and-baidu-are-slowly-shaking-chinas-corporate-culture">Read the full article here.</a></em></p>
+
+<p><strong>A cloud computing company in Chengdu, China</strong> awards &ldquo;Love Bonuses&rdquo; to workers who fall in love:</p>
+
+<blockquote><p>In China’s own Silicon Valley in Sichuan Province, the Chengdu cloud computing company has decided to reward its employees for falling in love, reports the People’s Daily.</p></blockquote>
+
+<p>Chengdu executives told the People’s Daily, that they came up with the idea after seeing the emotional turmoil of his young workers, awarding a financial bonus for workers willing to tuoguang – “strip” – slang for saying goodbye to the single life. The company hopes that if their employees fall in love with their colleagues, they will “have an even more harmonious team”&hellip;</p>
+
+<p><em><a href="http://worldcrunch.com/culture-society/chinese-tech-firm-gives-employees-quot-love-bonus-quot-to-hook-up/china-chengdu-it-workers-love-single/c3s10178/#.UKubo6WmC-L">Read the full article here.</a></em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[An Update on the Hungry Peddler]]></title>
+    <link href="http://ericdodds.github.io/blog/2012/11/19/an-update-on-the-hungry-peddler/"/>
+    <updated>2012-11-19T10:50:25-05:00</updated>
+    <id>http://ericdodds.github.io/blog/2012/11/19/an-update-on-the-hungry-peddler</id>
+    <content type="html"><![CDATA[<p>Several months ago I <a href="http://ericdodds.com/pay-attention-when-the-peddler-is-hungry/">wrote about</a> Autodesk laying off 500 employees. An experience I had with one of their subsidiaries prior to the downsizing made wonder if I should&rsquo;ve sensed trouble, but it turns out my (admittedly) uninformed speculation was off base. From a <a href="http://www.wired.com/business/2012/09/ff-autodesk-and-the-big-make/">recent Wired feature</a>:</p>
+
+<blockquote><p>On paper, no firm is better positioned to take advantage of a maker-led future than Autodesk, whose 30 years of experience in <a href="http://usa.autodesk.com/adsk/servlet/item?siteID=123112&amp;id=17690382">computer-aided design</a> give it unparalleled intelligence about the capabilities that designers want and need in their software. Despite some recent financial travails (in August, <a href="http://investors.autodesk.com/phoenix.zhtml?c=117861&amp;p=irol-irhome">lower-than-expected earnings</a> forced the layoff of some 500 employees), Autodesk’s core professional business affords it enviable leeway to pursue the consumer market without jeopardizing its solvency.</p></blockquote>
+
+<p>Autodesk&rsquo;s CEO, <a href="http://en.wikipedia.org/wiki/Carl_Bass">Carl Bass</a>, might just be the perfect guy to have at the helm for such a mission. He has an amazing workshop in West Berkeley and some interesting thoughts on the intersection of physical and digital creation:</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Follow Your Procrastination (Or, How I Changed Careers)]]></title>
+    <link href="http://ericdodds.github.io/blog/2012/10/14/follow-your-procrastination/"/>
+    <updated>2012-10-14T11:21:08-04:00</updated>
+    <id>http://ericdodds.github.io/blog/2012/10/14/follow-your-procrastination</id>
+    <content type="html"><![CDATA[<p>A few years ago my friend posted a quote about procrastination:</p>
+
+<blockquote><p>The work you do while you procrastinate is probably the work you should be doing for the rest of your life. <strong>–Jessica Hische</strong></p></blockquote>
+
+<p>Upon first read the concept was interesting, but it&rsquo;s full weight didn&rsquo;t hit me until much later. I think the delayed reaction was due to my professional youth &ndash; at the time I was earning spurs on my first national brand and consuming knowledge from my veteran boss like a dry sponge. The specificity of the industry (marketing) was far less important to me than the unique opportunities I had to carry more responsibility than normal for my age.</p>
+
+<p>After a good while, though, my rate of absorption began to slow. As a wise man <a href="http://gim.ie/5CIK">once said</a>, &ldquo;<em>in this department of life, as in every other, thrills come at the beginning and do not last.</em>&rdquo;</p>
+
+<p>While I still thoroughly enjoyed my day-to-day responsibilities, a flattened learning curve afforded me more time to expand my reading and thinking about marketing, business, and more. Interestingly, my curiosity led me mostly towards the internet, technology, and entrepreneurship.</p>
+
+<p>Hacker News and WIRED became regular reads, I began grabbing lunch with startup addicts like <a href="http://doddcaldwell.com">Dodd Caldwell</a>. I even started teaching myself basic HTML.</p>
+
+<p>I also channeled my off-hours energy (and learning) into attempts to start a few companies. I began to scan my day-to-day experiences for annoyances or problems that I thought technology could iron out. At the time, I also happened to live with one of the most talented developers I&rsquo;ve ever met, and he was happy for a few new challenges to tackle.</p>
+
+<p>In about a years' time, we both began and killed a rental payment web app and a wedding website service. (It was awesomely deflating to see Wordpress release a <a href="http://weddings.wordpress.com">phenomenal wedding product</a> not too long after we started writing code.)</p>
+
+<p>Around that same time a friend told me that he heard about an extra volunteer spot at a sold-out conference called <a href="http://grok.cc">GROK</a>. I knew that some of the brightest minds in the country gather there to talk about technology, design, and the internet, so I was thrilled to take him up.</p>
+
+<p>GROK did two very important things for me: First, it fully confirmed my passion for the industry, giving me clear direction for my next career move.</p>
+
+<p>Second, it introduced me to a few gentleman named <a href="http://matthewsmith.cc">Matthew Smith</a> and <a href="http://twitter.com/peterbarth">Peter Barth</a>, who would later provide the opportunity for that career move.</p>
+
+<p>In different spheres, both had been forging a foundation of design and technology in the Upstate, Matthew through gathering some of the top talent in the nation and forming <a href="http://coworkgreenville.com">CoWork</a>, and Peter through a startup accelerator called The Next Big Thing.</p>
+
+<p>When our paths crossed at GROK, it just so happens that they were talking about combining forces to form a single organization that shared resources, collaboration, and talent to better position our community as the place for all things tech in the Southeast.</p>
+
+<p>It also just so happens that they needed another team member to manage both execution and promotion of their programs.</p>
+
+<p>At that point, though, the merger was still an idea over lunch. But lunches turned into meetings, and meetings turned into branding work, and <a href="http://theironyard.com">The Iron Yard</a> was born, along with an offer for yours truly.</p>
+
+<p>In November my procrastination will turn into my paycheck, and I couldn&rsquo;t be more excited.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA["No Questions Asked" as a Clue to Your Standards]]></title>
+    <link href="http://ericdodds.github.io/blog/2012/09/25/no-questions-asked-as-a-clue-to-your-standards/"/>
+    <updated>2012-09-25T12:10:37-04:00</updated>
+    <id>http://ericdodds.github.io/blog/2012/09/25/no-questions-asked-as-a-clue-to-your-standards</id>
+    <content type="html"><![CDATA[<p>Last week my wife and I joined my parents for dinner at a fairly new restaurant on the lake.</p>
+
+<p>Aside from the privilege of enjoying a meal on the water, the experience was expected for a young establishment: decent service from a learning staff, and a well-prepared dish for a fair price.</p>
+
+<p>When the manager came by to ask about our experience, he noticed that 5 people were waiting for a 6th person&rsquo;s meal to arrive before eating. Without any hesitation, he said: &ldquo;<em>Your meal is on us. I apologize.</em>&rdquo; Upon return, our waiter was fully aware of the comped dinner and offered an additional apology.</p>
+
+<p>Several days later I received a call from SCBT, my bank. The conversation was short: &ldquo;<em>One of your checking accounts has been overdrawn. First, we wanted to know that you are a valued customer and this is abnormal, so we have waived the fee. We also want to let you know that you should transfer money into the account to avoid future fees.</em>&rdquo;</p>
+
+<p>No inquiry about what happened, no discussion of the charge that overdrew the account, just a waived fee for a valued customer. No questions asked.</p>
+
+<p>The areas in which you serve people without requiring explanation reveals your standards as a company or professional. (Or person, for that matter.)</p>
+
+<p>There will always be people who take advantage of superior service. But companies who resolve to have the highest standard of treatment have <em>already</em> counted the cost of both their inevitable imperfection as well as the client&rsquo;s, and have built them into the business plan and employee culture.</p>
+]]></content>
+  </entry>
+  
+</feed>
