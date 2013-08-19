@@ -1,6 +1,7 @@
 ---
 author: Eric
 comments: true
+sharing: false
 date: 2013-05-08 21:38:10+00:00
 layout: post
 slug: a-few-spring-photos-2013

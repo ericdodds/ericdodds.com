@@ -1,6 +1,7 @@
 ---
 author: Eric
 comments: true
+sharing: false
 date: 2013-02-23 15:55:36+00:00
 layout: post
 slug: a-few-winter-photos

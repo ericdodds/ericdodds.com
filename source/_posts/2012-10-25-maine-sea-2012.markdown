@@ -1,6 +1,7 @@
 ---
 author: Eric
 comments: true
+sharing: false
 date: 2012-10-25 13:10:10+00:00
 layout: post
 slug: maine-sea-2012

@@ -1,6 +1,7 @@
 ---
 author: Eric
 comments: true
+sharing: false
 date: 2012-10-14 15:21:08+00:00
 layout: post
 slug: follow-your-procrastination

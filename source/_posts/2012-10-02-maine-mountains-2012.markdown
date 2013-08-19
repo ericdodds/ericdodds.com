@@ -1,6 +1,7 @@
 ---
 author: Eric
 comments: true
+sharing: false
 date: 2012-10-02 16:24:04+00:00
 layout: post
 slug: maine-mountains-2012
