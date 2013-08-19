@@ -18,6 +18,8 @@ html {
 body {
     max-width: 1000px;
     background: #e7e7e8;
+    font-family: "Helvetica Neue",Arial,sans-serif;
+    color: #555555;
 }
 
 body > header {
@@ -80,6 +82,7 @@ body > div {
         }
 
         a {
+            font-size: .9em;
             color: #aaaaaa;
             text-decoration: none;
             &:hover { color: #555555; }
@@ -147,6 +150,7 @@ p code, li code {
 h1 {
     font-size: 1.2em;
     line-height: 1.5em;
+    color: #555555;
 }
 
 h2 {
