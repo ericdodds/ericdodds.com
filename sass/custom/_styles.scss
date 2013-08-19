@@ -26,7 +26,7 @@ body > header {
     color: $fgcolor1;
 
     h1 {
-        font-family: "PT Serif","Georgia","Helvetica Neue",Arial,sans-serif;
+        font-family: "Helvetica Neue",Arial,sans-serif;
         font-size: 1.4em;
         display: block;
         text-align: right;
@@ -67,11 +67,11 @@ body > div {
 
     span {
         font-size: 0.8em;
-        font-family: "PT Sans","Helvetica Neue",Arial,sans-serif;
+        font-family: "Helvetica Neue",Arial,sans-serif;
         margin-right: 15px;
 
         &.first {
-            margin-right: 27px; font-size: 1em;
+            margin-right: 27px; font-size: 1em; font-weight: bold;
             a { color: $fgcolor2; }
         }
 
