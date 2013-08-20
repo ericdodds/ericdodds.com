@@ -19,27 +19,21 @@ When I'm not at work you're likely to find me <a href="http://www.flickr.com/pho
 <hr>
 
 <div class="about-container">
-  <strong>Find Me</strong>
-  <ul>
-    <li>On <a href="http://twitter.com/ericdodds">Twitter</a></li>
-          <li>Exploring <a href="https://gimmebar.com/loves/ericdodds">the internet</a></li>
-    <li>Taking <a href="http://www.flickr.com/photos/ericdodds">pictures</a></li>
-  </ul>
+  <strong>Find Me</strong><br>
+    • On <a href="http://twitter.com/ericdodds">Twitter</a><br>
+    • Exploring <a href="https://gimmebar.com/loves/ericdodds">the internet</a><br>
+    • Taking <a href="http://www.flickr.com/photos/ericdodds">pictures</a><br>
 </div>
 
 <div class="about-container">
-  <strong>Other projects</strong>
-  <ul>
-    <li>Creating <a href="http://timelygram.com/">Instagram albums</a></li>
-          <li>Remodeling <a href="http://dontwaitfor.us/">my house</a></li>
-    <li>Growing <a href="http://willowflorals.com">Willow Florals</a></li>
-  </ul>
+  <strong>Other projects</strong><br>
+    • Creating <a href="http://timelygram.com/">Instagram albums</a><br>
+    • Remodeling <a href="http://dontwaitfor.us/">my house</a><br>
+    • Growing <a href="http://willowflorals.com">Willow Florals</a>
 </div>
 
 <div class="about-container">
-<strong>Friends</strong>
-  <ul>
-    <li><a href="http://www.wordology.org">Amy Taylor</a>- wordologist</li>
-    <li><a href="http://zachsuggs.com">Zach Suggs</a>- photo/video</li>
-  </ul>
-</div>
+  <strong>Friends</strong><br>
+  • <a href="http://www.wordology.org">Amy Taylor</a> - wordologist<br>
+  • <a href="http://zachsuggs.com">Zach Suggs</a> - photo/video<br>
+  </div>
