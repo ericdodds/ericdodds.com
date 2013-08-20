@@ -49,15 +49,16 @@ body > header h1 a, body > header h1 a:visited, body > header h1 a:hover {
 }
 
 body > footer {
+    font-family: "Helvetica Neue",Arial,sans-serif;
     background: $bgcolor;
     color: #555555;
     border: none;
     text-shadow: none;
 
     a {
-        color: $bgcolor;
-        &:hover { color: $bgcolor; }
-        &:visited { color: $bgcolor; }
+        color: #4da7ca;
+        &:hover { text-decoration: underline; }
+        &:visited { color: #4da7ca; }
     }
 }
 
@@ -216,4 +217,3 @@ ul, ol {
 .categories {
     font-family: "Helvetica Neue",Arial,sans-serif;
 }
-
