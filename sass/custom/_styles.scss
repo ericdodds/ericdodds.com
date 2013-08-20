@@ -130,6 +130,7 @@ body > div {
 
     a.category {
         font-family: "Helvetica Neue",Arial,sans-serif;
+        &:hover {color: #4da7ca; text-decoration: none;}
     }
 }
 
