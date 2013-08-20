@@ -145,6 +145,10 @@ article {
     padding-top: 0em;
 }
 
+article img,article video,article .flash-video {
+    border: none;
+}
+
 /*.entry-content {
     border-bottom: 1px #555555; 
     border-style: dashed;
