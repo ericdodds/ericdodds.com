@@ -50,7 +50,7 @@ body > header h1 a, body > header h1 a:visited, body > header h1 a:hover {
 
 body > footer {
     background: $bgcolor;
-    color: $bgcolor;
+    color: #555555;
     border: none;
     text-shadow: none;
 
@@ -134,12 +134,19 @@ body > div {
 }
 
 /*article > footer {
-    display: none;
+    border-bottom: 1px solid #e7e7e8; 
+    border-style: dashed;
+    padding-top: 20px;
 }*/
 
 article {
     padding-top: 0em;
 }
+
+/*.entry-content {
+    border-bottom: 1px #555555; 
+    border-style: dashed;
+}*/
 
 p code, li code {
     background: #D1D1D1;
@@ -192,6 +199,9 @@ ul, ol {
 .meta {
     font-family: "Helvetica Neue",Arial,sans-serif;
     font-style: italic;
+    border-bottom: 1px solid #e7e7e8;
+    border-style: dotted; 
+    padding: 5px 0 5px 0;
 }
 
 .month {
