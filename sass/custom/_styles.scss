@@ -131,12 +131,15 @@ body > div {
     a.category {
         font-family: "Helvetica Neue",Arial,sans-serif;
     }
-
 }
 
 /*article > footer {
     display: none;
 }*/
+
+article {
+    padding-top: 0em;
+}
 
 p code, li code {
     background: #D1D1D1;
