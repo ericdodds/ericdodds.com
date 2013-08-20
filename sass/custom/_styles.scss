@@ -149,6 +149,13 @@ article img,article video,article .flash-video {
     border: none;
 }
 
+.about-container {
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+    margin-top: 20px;
+}
+
 /*.entry-content {
     border-bottom: 1px #555555; 
     border-style: dashed;
