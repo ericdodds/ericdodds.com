@@ -95,7 +95,7 @@ body > div {
         }
 
         a {
-            font-size: .9em;
+            font-size: 1em;
             color: #aaaaaa;
             text-decoration: none;
             &:hover { color: #555555; }
@@ -255,9 +255,13 @@ ul, ol {
     body {
         font-size: 15px;
     }
+
+    #header-inner span { font-size: .8em; }
 }
 @media only screen and (max-width: 767px) {
     body {
         font-size: 14px;
     }
+
+    #header-inner span { font-size: 1em; }
 }
