@@ -12,11 +12,15 @@ html {
 }
 
 #content {
-    background: #FEFFFB;
+    background: #FFF;
+}
+
+#content div {
+    padding-top: 0px;
 }
 
 body {
-    max-width: 1000px;
+    width: 1000px;
     background: #e7e7e8;
     font-family: "Helvetica Neue",Arial,sans-serif;
     color: #555555;
@@ -30,8 +34,7 @@ body a {
 }
 
 body > header {
-    opacity: 0.9;
-    background: $bgcolor;
+    background: #FFF;
     color: $fgcolor1;
 
     h1 {
@@ -107,7 +110,7 @@ body > div {
 }
 
 .heading, body > header h1, h1, h2, h3, h4, h5, h6 {
-    font-family: "Droid Sans","Helvetica Neue",Arial,sans-serif;
+    font-family: "Helvetica Neue",Arial,sans-serif;
 }
 
 #blog-archives {
@@ -133,6 +136,19 @@ body > div {
         font-family: "Helvetica Neue",Arial,sans-serif;
         &:hover {color: #4da7ca; text-decoration: none;}
     }
+}
+
+article > header {
+    background: #f7f7f7;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    margin-left: -55px;
+    margin-right: -55px;
+}
+
+article header h1 {
+    padding-left: 55px;
+    font-weight: normal;
 }
 
 article > footer {
@@ -202,6 +218,10 @@ aside.sidebar a {
 
 .collapse-sidebar aside.sidebar {
     display: none;
+}
+
+.collapse-sidebar #content {
+    margin-right: 0px;
 }
 
 ul, ol {
