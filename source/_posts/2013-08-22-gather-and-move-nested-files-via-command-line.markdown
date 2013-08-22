@@ -22,7 +22,14 @@ Exploring regex commands[^2] seemed promising[^3] until I realized that I needed
 
 We discovered that using a unix find command, file name specification, and move command for each individual file types worked like a charm. 
 
-<script src="https://gist.github.com/ericdodds/6306638.js"></script>
+{% codeblock %}
+//Use this command to find and move a specific kind of file in a directory. 
+//This command searches recursively through nested folders.
+
+$ find ~/old-music-folder -name '*.mp3' -exec mv {} ~/new-music-folder \;
+{% endcodeblock %}
+
+*[Here's a link to the gist on GitHub.](https://gist.github.com/ericdodds/6306638.js)*
 
 The result: all of the audio files in a single folder, easily digestible by the mp3 converter.
 
