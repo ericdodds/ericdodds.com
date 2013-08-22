@@ -126,6 +126,7 @@ body > div {
     time {
         top: 1.57em;
         .month { text-transform: UPPERCASE; }
+        font-family: "Helvetica Neue",Arial,sans-serif;
     }
 
     h1 {
@@ -193,10 +194,6 @@ article img,article video,article .flash-video {
     border: none;
     box-shadow: none;
     width: 100%;
-}
-
-.entry-title-home {
-    text-align: center;
 }
 
 .about-container {
