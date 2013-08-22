@@ -91,6 +91,11 @@ body > div {
             a { color: #555555; }
         }
 
+        &.sub-nav {
+            float: right;
+            display: inline-block;
+        }
+
         &.last {
             margin-right: 0;
         }
