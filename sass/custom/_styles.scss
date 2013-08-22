@@ -140,7 +140,21 @@ body > div {
     }
 }
 
-.home-content-container {
+.home-content-container-left {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 20px 20px 20px;
+    width: 250px;
+}
+
+.home-content-container-middle {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 20px 20px 20px;
+    width: 250px;
+}
+
+.home-content-container-right {
     display: inline-block;
     vertical-align: top;
     margin: 20px 20px 20px 20px;

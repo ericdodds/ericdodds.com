@@ -21,6 +21,7 @@ When I'm not at work you're likely to find me <a href="http://www.flickr.com/pho
 <div class="about-container">
   <strong>Find Me</strong><br>
     • On <a href="http://twitter.com/ericdodds">Twitter</a><br>
+    • On <a href="http://github.com/ericdodds">GitHub</a><br>
     • Exploring <a href="https://gimmebar.com/loves/ericdodds">the internet</a><br>
     • Taking <a href="http://www.flickr.com/photos/ericdodds">pictures</a><br>
 </div>
@@ -34,6 +35,7 @@ When I'm not at work you're likely to find me <a href="http://www.flickr.com/pho
 
 <div class="about-container">
   <strong>Friends</strong><br>
-  • <a href="http://www.wordology.org">Amy Taylor</a> - wordologist<br>
-  • <a href="http://zachsuggs.com">Zach Suggs</a> - photo/video<br>
+  • <a href="http://twitter.com/masondesu">Mason Stewart</a> - hacker exraordinaire<br>
+  • <a href="http://twitter.com/marcosuarez">Marco Suarez</a> - designer phenom<br>
+  • <a href="http://zachsuggs.com">Zach Suggs</a> - photographer<br>
   </div>
