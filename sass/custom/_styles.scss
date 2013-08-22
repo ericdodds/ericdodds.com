@@ -193,7 +193,7 @@ article {
 article img,article video,article .flash-video {
     border: none;
     box-shadow: none;
-    width: 100%;
+    max-width: 100%;
 }
 
 .about-container {
