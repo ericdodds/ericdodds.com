@@ -20,7 +20,7 @@ After that, I turned to the terminal to see if I could efficiently gather all of
 
 Exploring regex commands[^2] seemed promising[^3] until I realized that I needed to move multiple file types. Frustration drove me to enlist my business partner (and hacker extraordinaire) [Mason Stewart's](http://twitter.com/masondesu) help. 
 
-We discovered that using a find command, file name specification, and move command for each individual file types worked like a charm. 
+We discovered that using a unix find command, file name specification, and move command for each individual file types worked like a charm. 
 
 <script src="https://gist.github.com/ericdodds/6306638.js"></script>
 
