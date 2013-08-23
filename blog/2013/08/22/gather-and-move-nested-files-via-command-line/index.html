@@ -79,17 +79,17 @@
 
 <p>After tinkering for a bit I discovered that running bad files through an mp3 converter fixed the problem—the content was intact, but iTunes was having trouble reading them fully<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
 
-<p>Having discovered the fix for individual files, I faced another problem: those items were spread across a directory with thousands of nested folders, some several levels deep in the hierarchy. There&rsquo;s no way I was going to manually move 20,000 files.</p>
+<p>Having discovered the fix for individual files, I faced another problem: those items were spread across a directory with thousands of nested folders, some several levels deep in the hierarchy. There was no way I was going to manually move 20,000 files.</p>
 
 <p><img src="/images/blog/2013/08/nested-audio-files-1.png" alt="Screenshot of nested audio files several folders deep" style="border: 1px solid gray"></p>
 
 <p>My first crack at automating the process was finding an mp3 conversion tool that would search through folders, find files, and convert them in place. <a href="http://www.nch.com.au/switch/index.html">Switch</a> seemed like it would do the job initially, but after several failed attempts I figured that some combination of names in the file path was breaking the process. I tried a few more programs unsuccessfully before remembering that I had no need to preserve the existing order as iTunes automatically generates an artist/album/song folder structure when you import new files.</p>
 
-<p>After that, I turned to the terminal to see if I could efficiently gather all of the files into a single clean directory.</p>
+<p>After that, I turned to the terminal to see if I could efficiently gather all of the files into a single clean directory. (Scared of the terminal? Don&rsquo;t be<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>.)</p>
 
-<p>Exploring regex commands<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> seemed promising<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup> until I realized that I needed to move multiple file types. Frustration drove me to enlist my business partner (and hacker extraordinaire) <a href="http://twitter.com/masondesu">Mason Stewart&rsquo;s</a> help.</p>
+<p>Exploring regex commands<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup> seemed promising<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup> until I realized that I needed to move multiple file types. Frustration drove me to enlist my business partner (and hacker extraordinaire) <a href="http://twitter.com/masondesu">Mason Stewart&rsquo;s</a> help.</p>
 
-<p>We discovered that using a unix find command, file name specification, and move command for each individual file types worked like a charm.</p>
+<p>We discovered that using a unix find command, file name specification, and move command for each individual file type worked like a charm.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -112,9 +112,11 @@
 <li id="fn:1">
 <p>More specifically, iTunes recognized the presence of a corrupt file in the library, but couldn&rsquo;t actually play it and would skip to the next song. <a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
 <li id="fn:2">
-<p>Mason showed me <a href="http://leaverou.github.io/regexplained/">this amazing regex playground</a> by <a href="http://lea.verou.me/">Lea Verou</a>. I still understand very little about regex, but the taste I had showed me that it&rsquo;s an incredibly powerful tool.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<p>Even if you&rsquo;re not nerdy by nature, knowing a few basic unix commands is super powerful. For example, find the Terminal (or command line app) on your computer and type &ldquo;whois ericdodds.com&rdquo;. <a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
 <li id="fn:3">
-<p>&ldquo;Some people, when confronted with a problem, think &lsquo;I know, I&rsquo;ll use regular expressions.&rsquo; Now they have two problems. —Jamie Zawinski&rdquo;<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<p>Mason showed me <a href="http://leaverou.github.io/regexplained/">this amazing regex playground</a> by <a href="http://lea.verou.me/">Lea Verou</a>. I still understand very little about regex, but the taste I had showed me that it&rsquo;s an incredibly powerful tool.<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<li id="fn:4">
+<p>&ldquo;Some people, when confronted with a problem, think &lsquo;I know, I&rsquo;ll use regular expressions.&rsquo; Now they have two problems. —Jamie Zawinski&rdquo;<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
 </ol>
 </div>
 
