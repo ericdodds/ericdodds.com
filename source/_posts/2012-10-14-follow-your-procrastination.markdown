@@ -6,11 +6,9 @@ date: 2012-10-14 15:21:08+00:00
 layout: post
 slug: follow-your-procrastination
 title: Follow Your Procrastination (Or, How I Changed Careers)
-wordpress_id: 10155
 categories:
-- Busines
-- Journal
 - Work
+- Life
 ---
 
 A few years ago my friend posted a quote about procrastination: 

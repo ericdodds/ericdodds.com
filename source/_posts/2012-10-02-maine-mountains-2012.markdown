@@ -9,7 +9,6 @@ title: Maine Mountains
 wordpress_id: 10073
 categories:
 - Adventures
-- Journal
 - Photography
 tags:
 - acadia

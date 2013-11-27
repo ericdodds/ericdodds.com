@@ -9,7 +9,6 @@ title: Maine Sea
 wordpress_id: 10081
 categories:
 - Adventures
-- Journal
 - Photography
 tags:
 - acadia national park

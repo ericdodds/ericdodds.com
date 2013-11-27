@@ -8,8 +8,8 @@ slug: a-few-spring-photos-2013
 title: A Few Spring Photos
 wordpress_id: 10419
 categories:
-- Life
 - Photography
+- Adventures
 tags:
 - Carrie Underwood
 - circus

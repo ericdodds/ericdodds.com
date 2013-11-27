@@ -21,7 +21,7 @@ html {
 
 body {
     font-size: 16px;
-    max-width: 1000px;
+    max-width: 800px;
     width: 100%;
     background: #e7e7e8;
     font-family: "Helvetica Neue",Arial,sans-serif;
@@ -77,6 +77,11 @@ body > div {
     border: none;
 }
 
+.dotted-border {
+    padding-top: 0.8em;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBI…TAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC') top left repeat-x;
+}
+
 #header-inner {
     position: relative;
 
@@ -89,7 +94,7 @@ body > div {
         &.first {
             margin-right: 27px; font-size: 1em; font-weight: bold;
             a { color: #555555; 
-                &:hover {color: #555555;}
+                &:hover {color: #aaaaaa;}
             }
         }
 
@@ -148,25 +153,32 @@ body > div {
     }
 }
 
-.home-content-container-left {
-    display: inline-block;
-    vertical-align: top;
-    margin: 20px 20px 20px 20px;
-    width: 250px;
-}
+// .home-content-container-left {
+//     display: inline-block;
+//     vertical-align: top;
+//     margin: 20px 20px 20px 20px;
+//     width: 250px;
+// }
 
-.home-content-container-middle {
-    display: inline-block;
-    vertical-align: top;
-    margin: 20px 20px 20px 20px;
-    width: 250px;
-}
+// .home-content-container-middle {
+//     display: inline-block;
+//     vertical-align: top;
+//     margin: 20px 20px 20px 20px;
+//     width: 250px;
+// }
 
-.home-content-container-right {
-    display: inline-block;
-    vertical-align: top;
-    margin: 20px 20px 20px 20px;
-    width: 250px;
+// .home-content-container-right {
+//     display: inline-block;
+//     vertical-align: top;
+//     margin: 20px 20px 20px 20px;
+//     width: 250px;
+// }
+
+.homepage-welcome {
+    li {
+        width: 300px;
+        display: inline-block;
+    }
 }
 
 article > header {
@@ -286,6 +298,14 @@ ul, ol {
     }
 
     #header-inner span { font-size: .8em; }
+
+    article > header {
+        // background: #f7f7f7;
+        // padding-top: 22px;
+        // padding-bottom: 22px;
+        margin-left: -35px;
+        margin-right: -35px;
+    }
 }
 @media only screen and (max-width: 767px) {
     body {

@@ -3,7 +3,9 @@ layout: post
 title: "Gather and move nested audio files via command line"
 date: 2013-08-22 15:32
 comments: true
-categories: Nerdery, Code
+categories:
+- Nerdery
+- Code
 ---
 
 Over the years my brother has amassed a large music library of 20,000+ songs. He has a great taste for sound, but when it comes to technology his nerd DNA is dwarfed by his [outdoorsman DNA](http://www.flickr.com/photos/ericdodds/8693251917/). After several computer upgrades, multiple iTunes Library restorations and transfers, and no file file management whatsoever, a significant portion of his audio files were corrupt and wouldn't play (via iTunes or in the Finder on his Mac). Music is a very important part of his life, so I set out to help him.

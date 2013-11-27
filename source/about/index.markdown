@@ -10,15 +10,38 @@ footer: true
 
 My name is Eric Dodds. I live in South Carolina.
 
-I work in technology and play in the mountains. I'm passionate about strong coffee, being a loving husband, and helping people build truly great products and companies. Coffee helps with the last two. 
+I work in technology and play in the mountains. I'm passionate about strong coffee, following Christ, being a loving husband, and changing people's lives through code education. Coffee helps with the last three. 
 
-I currently run a company called <a href="http://theironyard.com">The Iron Yard</a>, where my job ranges from writing to accounting to overall strategy. I also started an intensive <a href="https://vimeo.com/64245253">code and design school</a> with <a href="http://twitter.com/masondesu">Mason Stewart</a>. Before <a href="http://ericdodds.com/follow-your-procrastination/">my journey</a> into the wild west of tech, I worked as a marketer for brands like Best Buy, Double Day, and Colonial Williamsburg.  
+I currently run a company called <a href="http://theironyard.com">The Iron Yard</a>, where my job ranges from writing to hiring to overall strategy. Our most recent adventure is building and expanding an <a href="https://vimeo.com/64245253">code and design school</a>. I'm humbled to work with two amazing business partners, <a href="http://twitter.com/masondesu">Mason Stewart</a> and <a href="http://twitter.com/peterbarth">Peter Barth</a>. 
 
-When I'm not at work you're likely to find me <a href="http://www.flickr.com/photos/ericdodds/8463080254/in/photostream"> mountain biking</a>, <a href="http://www.flickr.com/photos/ericdodds/8500860202/in/photostream">rock climbing</a>, tinkering in <a href="http://www.flickr.com/photos/ericdodds/6540110637/in/photostream">my shop</a>, or delivering flowers for <a href="http://willowflorals.com">my wife's business</a>. Some people enjoy reading about the work I've done <a href="http://dontwaitfor.us/"> on my house</a>. 
+Before <a href="http://ericdodds.com/follow-your-procrastination/">my journey</a> into the wild west of entrepreneurship, I worked as a marketing strategist and project manager for brands like Best Buy, Double Day, and Colonial Williamsburg.
 
-<hr>
+I occasionally take on writing and branding projects under the moniker Shy Volcano. <a href="mailto:eric@shyvolcano.com?I'd like to talk about a project">Let me know</a> if you're interested. 
 
-<div class="about-container">
+When I'm not at work you're likely to find me <a href="http://www.flickr.com/photos/ericdodds/8463080254/in/photostream"> mountain biking</a>, <a href="http://www.flickr.com/photos/ericdodds/8500860202/in/photostream">rock climbing</a>, tinkering in <a href="http://www.flickr.com/photos/ericdodds/6540110637/in/photostream">my shop</a>, or delivering flowers for <a href="http://willowflorals.com">my wife's business</a>.
+
+<h1>Find me in other corners of the internet</h1>
+
+<ul>
+  <li>On <a href="http://twitter.com/ericdodds">Twitter</a></li>
+  <li>On <a href="http://github.com/ericdodds">GitHub</a></li>
+  <li>Exploring <a href="https://gimmebar.com/loves/ericdodds">the internet</a></li>
+  <li>Taking <a href="http://www.flickr.com/photos/ericdodds">pictures</a></li>
+</ul>
+
+<h1>People I really love to work with</h1>
+
+<ul>
+  <li><a href="http://twitter.com/masondesu">Mason Stewart</a> - hacker</li>
+  <li><a href="http://twitter.com/marcosuarez">Marco Suarez</a> - designer</li>
+  <li><a href="http://twitter.com/andrewramos">Andrew Ramos</a> - designer</li>
+  <li><a href="http://zachsuggs.com">Zach Suggs</a> - photographer/videographer</a></li>
+</ul>
+
+
+
+
+<!-- <div class="about-container">
   <strong>Find Me</strong><br>
     • On <a href="http://twitter.com/ericdodds">Twitter</a><br>
     • On <a href="http://github.com/ericdodds">GitHub</a><br>
@@ -27,15 +50,10 @@ When I'm not at work you're likely to find me <a href="http://www.flickr.com/pho
 </div>
 
 <div class="about-container">
-  <strong>Other projects</strong><br>
-    • Creating <a href="http://timelygram.com/">Instagram albums</a><br>
-    • Remodeling <a href="http://dontwaitfor.us/">my house</a><br>
-    • Growing <a href="http://willowflorals.com">Willow Florals</a>
-</div>
-
-<div class="about-container">
   <strong>Friends</strong><br>
   • <a href="http://twitter.com/masondesu">Mason Stewart</a> - hacker exraordinaire<br>
   • <a href="http://twitter.com/marcosuarez">Marco Suarez</a> - designer phenom<br>
   • <a href="http://zachsuggs.com">Zach Suggs</a> - photographer<br>
-  </div>
+  </div> -->
+
+
