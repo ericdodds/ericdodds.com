@@ -26,8 +26,27 @@ When I'm not at work you're likely to find me <a href="http://www.flickr.com/pho
   <li>On <a href="http://twitter.com/ericdodds">Twitter</a></li>
   <li>On <a href="http://github.com/ericdodds">GitHub</a></li>
   <li>Exploring <a href="https://gimmebar.com/loves/ericdodds">the internet</a></li>
-  <li>Taking <a href="http://www.flickr.com/photos/ericdodds">pictures</a></li>
 </ul>
+
+<h1>Photos</h1> 
+
+<div class="photos">
+
+  <style type="text/css"> 
+
+    .flickr_badge_image {margin:0px;display:inline-block;}
+
+    .flickr_badge_image img {border: 0px solid #666666 !important; padding:1px; margin: 3px 3px -3px 3px; border-radius: 3px; width: 75px;}
+
+    #flickr_badge_wrapper {text-align:left}
+
+  </style>
+
+  <div id="flickr_badge_wrapper">
+    <script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=8&display=random&size=s&layout=x&source=user&user=15307634@N04"></script>
+  </div>
+</div>
+
 
 <h1>People I really love to work with</h1>
 
