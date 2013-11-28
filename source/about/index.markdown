@@ -18,7 +18,7 @@ Before <a href="http://ericdodds.com/follow-your-procrastination/">my journey</a
 
 I occasionally take on writing and branding projects under the moniker Shy Volcano. <a href="mailto:eric@shyvolcano.com?I'd like to talk about a project">Let me know</a> if you're interested. 
 
-When I'm not at work you're likely to find me <a href="http://www.flickr.com/photos/ericdodds/8463080254/in/photostream"> mountain biking</a>, <a href="http://www.flickr.com/photos/ericdodds/8500860202/in/photostream">rock climbing</a>, tinkering in <a href="http://www.flickr.com/photos/ericdodds/6540110637/in/photostream">my shop</a>, or delivering flowers for <a href="http://willowflorals.com">my wife's business</a>.
+When I'm not at work you're likely to find me <a href="http://www.flickr.com/photos/ericdodds/8463080254/in/photostream">mountain biking</a>, <a href="http://www.flickr.com/photos/ericdodds/8500860202/in/photostream">rock climbing</a>, tinkering in <a href="http://www.flickr.com/photos/ericdodds/6540110637/in/photostream">my shop</a>, or delivering flowers for <a href="http://willowflorals.com">my wife's business</a>.
 
 <h1>Find me in other corners of the internet</h1>
 
