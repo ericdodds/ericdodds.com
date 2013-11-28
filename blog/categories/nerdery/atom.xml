@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Nerdery | Eric Dodds]]></title>
-  <link href="http://ericdodds.com/blog/categories/nerdery/atom.xml" rel="self"/>
-  <link href="http://ericdodds.com/"/>
-  <updated>2013-11-28T11:52:04-05:00</updated>
-  <id>http://ericdodds.com/</id>
+  <link href="http://ericdodds.github.io/ericdodds/blog/categories/nerdery/atom.xml" rel="self"/>
+  <link href="http://ericdodds.github.io/ericdodds/"/>
+  <updated>2013-11-28T11:53:25-05:00</updated>
+  <id>http://ericdodds.github.io/ericdodds/</id>
   <author>
     <name><![CDATA[Eric Dodds]]></name>
     
@@ -15,16 +15,16 @@
   
   <entry>
     <title type="html"><![CDATA[Gather and move nested audio files via command line]]></title>
-    <link href="http://ericdodds.com/blog/2013/08/22/gather-and-move-nested-files-via-command-line/"/>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2013/08/22/gather-and-move-nested-files-via-command-line/"/>
     <updated>2013-08-22T15:32:00-04:00</updated>
-    <id>http://ericdodds.com/blog/2013/08/22/gather-and-move-nested-files-via-command-line</id>
+    <id>http://ericdodds.github.io/ericdodds/blog/2013/08/22/gather-and-move-nested-files-via-command-line</id>
     <content type="html"><![CDATA[<p>Over the years my brother has amassed a large music library of 20,000+ songs. He has a great taste for sound, but when it comes to technology his nerd DNA is dwarfed by his <a href="http://www.flickr.com/photos/ericdodds/8693251917/">outdoorsman DNA</a>. After several computer upgrades, multiple iTunes Library restorations and transfers, and no file file management whatsoever, a significant portion of his audio files were corrupt and wouldn&rsquo;t play (via iTunes or in the Finder on his Mac). Music is a very important part of his life, so I set out to help him.</p>
 
 <p>After tinkering for a bit I discovered that running bad files through an mp3 converter fixed the problem—the content was intact, but iTunes was having trouble reading them fully<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
 
 <p>Having discovered the fix for individual files, I faced another problem: those items were spread across a directory with thousands of nested folders, some several levels deep in the hierarchy. There was no way I was going to manually move 20,000 files.</p>
 
-<p><img src="http://ericdodds.com/images/blog/2013/08/nested-audio-files-1.png" alt="Screenshot of nested audio files several folders deep" style="border: 1px solid gray"></p>
+<p><img src="http://ericdodds.github.io/ericdodds/images/blog/2013/08/nested-audio-files-1.png" alt="Screenshot of nested audio files several folders deep" style="border: 1px solid gray"></p>
 
 <p>My first crack at automating the process was finding an mp3 conversion tool that would search through folders, find files, and convert them in place. <a href="http://www.nch.com.au/switch/index.html">Switch</a> seemed like it would do the job initially, but after several failed attempts I figured that some combination of names in the file path was breaking the process. I tried a few more programs unsuccessfully before remembering that I had no need to preserve the existing order as iTunes automatically generates an artist/album/song folder structure when you import new files.</p>
 
@@ -47,7 +47,7 @@
 
 <p>The result: all of the audio files in a single folder, easily digestible by the mp3 converter.</p>
 
-<p><img src="http://ericdodds.com/images/blog/2013/08/nested-audio-files-2.png" alt="Screenshot of nested audio files moved to a single directory" style="border: 1px solid gray"></p>
+<p><img src="http://ericdodds.github.io/ericdodds/images/blog/2013/08/nested-audio-files-2.png" alt="Screenshot of nested audio files moved to a single directory" style="border: 1px solid gray"></p>
 <div class="footnotes">
 <hr/>
 <ol>
