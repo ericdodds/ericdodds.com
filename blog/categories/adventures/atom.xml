@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Adventures | Eric Dodds]]></title>
-  <link href="http://ericdodds.com/blog/categories/adventures/atom.xml" rel="self"/>
-  <link href="http://ericdodds.com/"/>
-  <updated>2013-11-28T11:48:52-05:00</updated>
-  <id>http://ericdodds.com/</id>
+  <link href="http://ericdodds.github.io/ericdodds/blog/categories/adventures/atom.xml" rel="self"/>
+  <link href="http://ericdodds.github.io/ericdodds/"/>
+  <updated>2013-11-28T11:50:29-05:00</updated>
+  <id>http://ericdodds.github.io/ericdodds/</id>
   <author>
     <name><![CDATA[Eric Dodds]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[A Few Spring Photos]]></title>
-    <link href="http://ericdodds.com/blog/2013/05/08/a-few-spring-photos-2013/"/>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2013/05/08/a-few-spring-photos-2013/"/>
     <updated>2013-05-08T17:38:10-04:00</updated>
-    <id>http://ericdodds.com/blog/2013/05/08/a-few-spring-photos-2013</id>
+    <id>http://ericdodds.github.io/ericdodds/blog/2013/05/08/a-few-spring-photos-2013</id>
     <content type="html"><![CDATA[<p>We went to see the circus. The theme song was maddeningly repetitive, but the tightrope walkers made up for it.</p>
 
 <p><a href="http://www.flickr.com/photos/ericdodds/8694366898/"><img src="http://farm9.staticflickr.com/8395/8694366898_2f6f95360a_c.jpg" alt="2013-02-01 February mobile photos 03" /></a></p>
@@ -70,9 +70,9 @@
   
   <entry>
     <title type="html"><![CDATA[A Few Winter Photos]]></title>
-    <link href="http://ericdodds.com/blog/2013/02/23/a-few-winter-photos/"/>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2013/02/23/a-few-winter-photos/"/>
     <updated>2013-02-23T10:55:36-05:00</updated>
-    <id>http://ericdodds.com/blog/2013/02/23/a-few-winter-photos</id>
+    <id>http://ericdodds.github.io/ericdodds/blog/2013/02/23/a-few-winter-photos</id>
     <content type="html"><![CDATA[<p>I carved out a few hours on a rainy morning to collect pictures from the last few months. It&rsquo;s been a good winter.</p>
 
 <hr />
@@ -149,9 +149,9 @@
   
   <entry>
     <title type="html"><![CDATA[Maine Sea]]></title>
-    <link href="http://ericdodds.com/blog/2012/10/25/maine-sea-2012/"/>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2012/10/25/maine-sea-2012/"/>
     <updated>2012-10-25T09:10:10-04:00</updated>
-    <id>http://ericdodds.com/blog/2012/10/25/maine-sea-2012</id>
+    <id>http://ericdodds.github.io/ericdodds/blog/2012/10/25/maine-sea-2012</id>
     <content type="html"><![CDATA[<blockquote><p>The last stop on our Northeastern tour found us in <a href="http://www.nps.gov/acad/index.htm">Acadia National Park</a>. We stayed on both the <a href="http://en.wikipedia.org/wiki/Schoodic_Peninsula">Shoodic Peninsula</a> and <a href="http://en.wikipedia.org/wiki/Mount_Desert_Island">Mount Desert Island</a> sides of the park, and found the Schoodic area to be much quieter and less touristy.</p></blockquote>
 
 <p>I <a href="http://ericdodds.com/maine-mountains-2012/">posted photos</a> of Acadia&rsquo;s mountains previously, but that was only half the story. Maritime heritage is the true treasure of Maine&rsquo;s coastline. I recommend steering clear of Bar Harbor and retreating to active fishing towns like <a href="http://en.wikipedia.org/wiki/Bass_Harbor,_Maine">Bass Harbor</a>, which we found to be quaint, full of history, and a great way to access offshore islands.</p>
@@ -196,9 +196,9 @@
   
   <entry>
     <title type="html"><![CDATA[Maine Mountains]]></title>
-    <link href="http://ericdodds.com/blog/2012/10/02/maine-mountains-2012/"/>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2012/10/02/maine-mountains-2012/"/>
     <updated>2012-10-02T12:24:04-04:00</updated>
-    <id>http://ericdodds.com/blog/2012/10/02/maine-mountains-2012</id>
+    <id>http://ericdodds.github.io/ericdodds/blog/2012/10/02/maine-mountains-2012</id>
     <content type="html"><![CDATA[<p>The second stop on our Northeastern tour found us in <a href="http://www.nps.gov/acad/index.htm">Acadia National Park</a>. We stayed on both the <a href="http://en.wikipedia.org/wiki/Schoodic_Peninsula">Shoodic Peninsula</a> and <a href="http://en.wikipedia.org/wiki/Mount_Desert_Island">Mount Desert Island</a> sides of the park, and found the Schoodic area to be much quieter and less touristy.</p>
 
 <p>Fun fact: The highest point in Acadia, Cadillac Mountain, is named for <a href="http://en.wikipedia.org/wiki/Antoine_Laumet_de_La_Mothe,_sieur_de_Cadillac">Antoine Laumet de La Mothe, sieur de Cadillac</a>, a French explorer. Along with leaving his namesake in Maine, he helped found the city of Detroit in the early 1700s. An automobile manufacturer honored the effort in 1902 by naming their firm &ldquo;Cadillac&rdquo; and using de La Mothe&rsquo;s coat of arms as their logo.</p>
@@ -227,9 +227,9 @@
   
   <entry>
     <title type="html"><![CDATA[New Hampshire]]></title>
-    <link href="http://ericdodds.com/blog/2012/09/26/new-hampshire-2012/"/>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2012/09/26/new-hampshire-2012/"/>
     <updated>2012-09-26T17:18:33-04:00</updated>
-    <id>http://ericdodds.com/blog/2012/09/26/new-hampshire-2012</id>
+    <id>http://ericdodds.github.io/ericdodds/blog/2012/09/26/new-hampshire-2012</id>
     <content type="html"><![CDATA[<p>My wife and I recently went on an adventure in the Northeastern US. Our first stop was the <a href="http://en.wikipedia.org/wiki/Franconia_Ridge">Franconia Range</a> in New Hampshire&rsquo;s <a href="http://en.wikipedia.org/wiki/White_Mountains_(New_Hampshire">White Mountain National Forest</a>). The terrain was simultaneously some of the most challenging and beautiful I&rsquo;ve ever experienced. Fun fact: the highest surface wind speed observed by mankind (231mph) was <a href="http://www.mountwashington.org/about/visitor/recordwind.php">recorded in 1934</a> on Mount Washington, the highest peak in both the White Mountains and the Northeastern US.</p>
 
 <p>Here are a few photos from our trip.</p>
