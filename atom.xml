@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Eric Dodds]]></title>
+  <link href="http://ericdodds.github.io/ericdodds/atom.xml" rel="self"/>
+  <link href="http://ericdodds.github.io/ericdodds/"/>
+  <updated>2013-11-28T11:25:20-05:00</updated>
+  <id>http://ericdodds.github.io/ericdodds/</id>
+  <author>
+    <name><![CDATA[Eric Dodds]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Electric Fence Coreography and Wild Animals]]></title>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2013/11/27/electric-fence-coreography-and-wild-animals/"/>
+    <updated>2013-11-27T16:48:00-05:00</updated>
+    <id>http://ericdodds.github.io/ericdodds/blog/2013/11/27/electric-fence-coreography-and-wild-animals</id>
+    <content type="html"><![CDATA[<p><em>These are transcripts of my wife recounting her dreams in stream-of-conscious format shortly after waking up.</em></p>
+
+<p>Food for the team of electric fence choreographers was giant buckets of raw chicken. I told them to get the the chicken in the freezer because that and eggs were the only thing we had to eat. It was cold.</p>
+
+<p>During our electric fence choreography routine, we would have to pry different wires open at different times to make various patterns, sometimes hopping back and forth in between the wires. If you messed up it would zap you.</p>
+
+<p>We all threw our underwear in a hamper, and if they pulled your underwear, you had to do something really hard, and this obese lady&rsquo;s underwear got pulled and I didn&rsquo;t know how she was going to do the challenge because she couldn&rsquo;t fit through the wires.</p>
+
+<p>There were wild animals. There were huge boars, but they didn&rsquo;t seem too aggressive, so I was just standing on tables throwing pieces of hot dog at them.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Gather and move nested audio files via command line]]></title>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2013/08/22/gather-and-move-nested-files-via-command-line/"/>
+    <updated>2013-08-22T15:32:00-04:00</updated>
+    <id>http://ericdodds.github.io/ericdodds/blog/2013/08/22/gather-and-move-nested-files-via-command-line</id>
+    <content type="html"><![CDATA[<p>Over the years my brother has amassed a large music library of 20,000+ songs. He has a great taste for sound, but when it comes to technology his nerd DNA is dwarfed by his <a href="http://www.flickr.com/photos/ericdodds/8693251917/">outdoorsman DNA</a>. After several computer upgrades, multiple iTunes Library restorations and transfers, and no file file management whatsoever, a significant portion of his audio files were corrupt and wouldn&rsquo;t play (via iTunes or in the Finder on his Mac). Music is a very important part of his life, so I set out to help him.</p>
+
+<p>After tinkering for a bit I discovered that running bad files through an mp3 converter fixed the problem—the content was intact, but iTunes was having trouble reading them fully<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
+
+<p>Having discovered the fix for individual files, I faced another problem: those items were spread across a directory with thousands of nested folders, some several levels deep in the hierarchy. There was no way I was going to manually move 20,000 files.</p>
+
+<p><img src="http://ericdodds.github.io/ericdodds/images/blog/2013/08/nested-audio-files-1.png" alt="Screenshot of nested audio files several folders deep" style="border: 1px solid gray"></p>
+
+<p>My first crack at automating the process was finding an mp3 conversion tool that would search through folders, find files, and convert them in place. <a href="http://www.nch.com.au/switch/index.html">Switch</a> seemed like it would do the job initially, but after several failed attempts I figured that some combination of names in the file path was breaking the process. I tried a few more programs unsuccessfully before remembering that I had no need to preserve the existing order as iTunes automatically generates an artist/album/song folder structure when you import new files.</p>
+
+<p>After that, I turned to the terminal to see if I could efficiently gather all of the files into a single clean directory. (Scared of the terminal? Don&rsquo;t be<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>.)</p>
+
+<p>Exploring regex commands<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup> seemed promising<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup> until I realized that I needed to move multiple file types. Frustration drove me to enlist my business partner (and hacker extraordinaire) <a href="http://twitter.com/masondesu">Mason Stewart&rsquo;s</a> help.</p>
+
+<p>We discovered that using a unix find command, file name specification, and move command for each individual file type worked like a charm.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>//Use this command to find and move a specific kind of file in a directory. 
+</span><span class='line'>//This command searches recursively through nested folders.
+</span><span class='line'>
+</span><span class='line'>$ find ~/old-music-folder -name '*.mp3' -exec mv {} ~/new-music-folder \;</span></code></pre></td></tr></table></div></figure>
+
+
+<p><em><a href="https://gist.github.com/ericdodds/6306638.js">Here&rsquo;s a link to the gist on GitHub.</a></em></p>
+
+<p>The result: all of the audio files in a single folder, easily digestible by the mp3 converter.</p>
+
+<p><img src="http://ericdodds.github.io/ericdodds/images/blog/2013/08/nested-audio-files-2.png" alt="Screenshot of nested audio files moved to a single directory" style="border: 1px solid gray"></p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>More specifically, iTunes recognized the presence of a corrupt file in the library, but couldn&rsquo;t actually play it and would skip to the next song. <a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>Even if you&rsquo;re not nerdy by nature, knowing a few basic unix commands is super powerful. For example, find the Terminal (or command line app) on your computer and type &ldquo;whois ericdodds.com&rdquo;. <a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p>Mason showed me <a href="http://leaverou.github.io/regexplained/">this amazing regex playground</a> by <a href="http://lea.verou.me/">Lea Verou</a>. I still understand very little about regex, but the taste I had showed me that it&rsquo;s an incredibly powerful tool.<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<li id="fn:4">
+<p>&ldquo;Some people, when confronted with a problem, think &lsquo;I know, I&rsquo;ll use regular expressions.&rsquo; Now they have two problems. —Jamie Zawinski&rdquo;<a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Few Spring Photos]]></title>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2013/05/08/a-few-spring-photos-2013/"/>
+    <updated>2013-05-08T17:38:10-04:00</updated>
+    <id>http://ericdodds.github.io/ericdodds/blog/2013/05/08/a-few-spring-photos-2013</id>
+    <content type="html"><![CDATA[<p>We went to see the circus. The theme song was maddeningly repetitive, but the tightrope walkers made up for it.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8694366898/"><img src="http://farm9.staticflickr.com/8395/8694366898_2f6f95360a_c.jpg" alt="2013-02-01 February mobile photos 03" /></a></p>
+
+<p>Mike and Jeff&rsquo;s is a local pulled pork-favorite.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8694367146/"><img src="http://farm9.staticflickr.com/8257/8694367146_79f6a3633a_c.jpg" alt="2013-02-05 February mobile photos 04" /></a></p>
+
+<p>Token moody mobile photo.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8693249151/"><img src="http://farm9.staticflickr.com/8119/8693249151_8708b6bc51_c.jpg" alt="2013-02-20 February mobile photos 07" /></a></p>
+
+<p>I traveled to San Francisco on business, and my wife came along to make a work-cation of it. The trees in the Music Concourse Community area of Golden Gate Park are very crustaceous.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8693250513/"><img src="http://farm9.staticflickr.com/8542/8693250513_501523768c_c.jpg" alt="2013-03-03 March mobile photos 09" /></a></p>
+
+<p>A lone onlooker at the Pacific Ocean.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8693250665/"><img src="http://farm9.staticflickr.com/8121/8693250665_76a4ee7ffc_c.jpg" alt="2013-03-03 March mobile photos 11" /></a></p>
+
+<p>If you haven&rsquo;t visited, the history lessons from Alcatraz (and the US prison system in general) are fascinating. Everyone loves a harrowing escape story.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8693250863/"><img src="http://farm9.staticflickr.com/8262/8693250863_bfcb3f6d1d_c.jpg" alt="2013-03-04 March mobile photos 13" /></a></p>
+
+<p>What would Bill Murray do? A very valid question in the heart of the Mission District.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8694369306/"><img src="http://farm9.staticflickr.com/8396/8694369306_4461be6f2b_c.jpg" alt="2013-03-04 March mobile photos 17" /></a></p>
+
+<p>I happened upon free Carrie Underwood box seats, so I took my wife on a date. Not my favorite music, but the show was amazing entertainment, and Carrie has some serious pipes.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8693251405/"><img src="http://farm9.staticflickr.com/8546/8693251405_1cc12afe5a_c.jpg" alt="2013-04-16 April mobile photos 05" /></a></p>
+
+<p>I finally conquered my first multi-pitch climb. This is a shot of my brother scaling the second section.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8693251651/"><img src="http://farm9.staticflickr.com/8120/8693251651_777d3cfc72_c.jpg" alt="2013-04-21 April mobile photos 06" /></a></p>
+
+<p>There&rsquo;s a large flat spot on Looking Glass Rock that climbers call the &ldquo;Parking Lot.&rdquo; It makes for a great rest halfway up.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8693251917/"><img src="http://farm9.staticflickr.com/8402/8693251917_0f38e349f5_c.jpg" alt="2013-04-21 April mobile photos 09" /></a></p>
+
+<p>My lovely wife, basking in the glow of a bonfire.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8694370406/"><img src="http://farm9.staticflickr.com/8118/8694370406_6b979ce058_c.jpg" alt="2013-04-26 April mobile photos 11" /></a></p>
+
+<p>We had a healthy does of April showers this spring.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8694373918/"><img src="http://farm9.staticflickr.com/8121/8694373918_0edaf11e44_c.jpg" alt="2013-03-29 March mobile photos 01" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Few Winter Photos]]></title>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2013/02/23/a-few-winter-photos/"/>
+    <updated>2013-02-23T10:55:36-05:00</updated>
+    <id>http://ericdodds.github.io/ericdodds/blog/2013/02/23/a-few-winter-photos</id>
+    <content type="html"><![CDATA[<p>I carved out a few hours on a rainy morning to collect pictures from the last few months. It&rsquo;s been a good winter.</p>
+
+<hr />
+
+<p>We had a birthday backyard camping adventure with my nephew in December. He lasted the whole night outside in 30º weather.</p>
+
+<p> <a href="http://www.flickr.com/photos/ericdodds/8462968640/"><img src="http://farm9.staticflickr.com/8531/8462968640_36f284ec03_c.jpg" alt="2012-12-13 Rush's birthday camping 06" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8461871299/"><img src="http://farm9.staticflickr.com/8110/8461871299_d394076444_c.jpg" alt="2012-12-13 Rush's birthday camping 10" /></a></p>
+
+<hr />
+
+<p>Julie&rsquo;s uncle is a cowboy from the west.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8462976608/"><img src="http://farm9.staticflickr.com/8370/8462976608_fba892ef37_c.jpg" alt="2012-12-25 Curt Pippenger 02" /></a></p>
+
+<hr />
+
+<p>Window in a small, rural Southern church.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8463053736/"><img src="http://farm9.staticflickr.com/8227/8463053736_78a05cf6ce_c.jpg" alt="2012-12-25 Christmas day 01" /></a></p>
+
+<hr />
+
+<p>A very rainy mountain biking excursion.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8463074094/"><img src="http://farm9.staticflickr.com/8089/8463074094_5798f42347_c.jpg" alt="2013-01-12 Mountain biking 02" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8461979833/"><img src="http://farm9.staticflickr.com/8391/8461979833_19ab5b309a_c.jpg" alt="2013-01-12 Mountain biking 10" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8463082028/"><img src="http://farm9.staticflickr.com/8392/8463082028_c3c77648d9_c.jpg" alt="2013-01-12 Mountain biking 13" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8461983315/"><img src="http://farm9.staticflickr.com/8506/8461983315_bd9e501abe_c.jpg" alt="2013-01-12 Mountain biking 17" /></a></p>
+
+<hr />
+
+<p>Weather broke in January and my brother took us north for a climbing lesson.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8500800864/"><img src="http://farm9.staticflickr.com/8516/8500800864_06c3a854e5_c.jpg" alt="2013-01-21 Climbing at the Cereal Wall 07" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8500801170/"><img src="http://farm9.staticflickr.com/8252/8500801170_9816420f87_c.jpg" alt="2013-01-21 Climbing at the Cereal Wall 08" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8499695479/"><img src="http://farm9.staticflickr.com/8235/8499695479_8471551140_c.jpg" alt="2013-01-21 Climbing at the Cereal Wall 10" /></a></p>
+
+<hr />
+
+<p>Mobile photos.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8500813010/"><img src="http://farm9.staticflickr.com/8516/8500813010_32484dd123_c.jpg" alt="2013-01-05 January mobile photos 04" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8499706705/"><img src="http://farm9.staticflickr.com/8383/8499706705_5805502b8f_c.jpg" alt="2013-01-05 January mobile photos 07" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8499707003/"><img src="http://farm9.staticflickr.com/8512/8499707003_abe7bf16c2_c.jpg" alt="2013-01-05 January mobile photos 08" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8499707155/"><img src="http://farm9.staticflickr.com/8232/8499707155_7604580e2e_c.jpg" alt="2013-01-23 January mobile photos 19" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8500813788/"><img src="http://farm9.staticflickr.com/8085/8500813788_ecdc7f5eb8_c.jpg" alt="2013-01-25 January mobile photos 16" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8500814030/"><img src="http://farm9.staticflickr.com/8532/8500814030_00c6e6e777_c.jpg" alt="2013-01-29 January mobile photos 17" /></a></p>
+
+<hr />
+
+<p>This was quite possibly the coldest adventure of my life. 20+ mile-per-hour winds and 20º weather made for painful and slow climbing, but we had a great time anyways.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8499753313/"><img src="http://farm9.staticflickr.com/8391/8499753313_cf758966dd_c.jpg" alt="2013-02-17 Climbing at Looking Glass Rock 13" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8500859954/"><img src="http://farm9.staticflickr.com/8249/8500859954_60cd9cc9a6_c.jpg" alt="2013-02-17 Climbing at Looking Glass Rock 14" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8500860202/"><img src="http://farm9.staticflickr.com/8245/8500860202_1ddddd7907_c.jpg" alt="2013-02-17 Climbing at Looking Glass Rock 16" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8499754195/"><img src="http://farm9.staticflickr.com/8110/8499754195_3b55b30c73_c.jpg" alt="2013-02-17 Climbing at Looking Glass Rock 11" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Maine Sea]]></title>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2012/10/25/maine-sea-2012/"/>
+    <updated>2012-10-25T09:10:10-04:00</updated>
+    <id>http://ericdodds.github.io/ericdodds/blog/2012/10/25/maine-sea-2012</id>
+    <content type="html"><![CDATA[<blockquote><p>The last stop on our Northeastern tour found us in <a href="http://www.nps.gov/acad/index.htm">Acadia National Park</a>. We stayed on both the <a href="http://en.wikipedia.org/wiki/Schoodic_Peninsula">Shoodic Peninsula</a> and <a href="http://en.wikipedia.org/wiki/Mount_Desert_Island">Mount Desert Island</a> sides of the park, and found the Schoodic area to be much quieter and less touristy.</p></blockquote>
+
+<p>I <a href="http://ericdodds.com/maine-mountains-2012/">posted photos</a> of Acadia&rsquo;s mountains previously, but that was only half the story. Maritime heritage is the true treasure of Maine&rsquo;s coastline. I recommend steering clear of Bar Harbor and retreating to active fishing towns like <a href="http://en.wikipedia.org/wiki/Bass_Harbor,_Maine">Bass Harbor</a>, which we found to be quaint, full of history, and a great way to access offshore islands.</p>
+
+<p>Fun fact: Bass Harbor was once <a href="http://en.wikipedia.org/wiki/Bass_Harbor,_Maine">haphazardly named McKinley</a>, after President William McKinley. At the turn of the 20th century, federal officers asked what they should name the village&rsquo;s newly built post office. Someone in their company told them to &ldquo;name it after the president, for all we care.&rdquo; And they did. The town carried the same name until citizens petitioned to have it changed in 1961.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024897102/"><img src="http://farm9.staticflickr.com/8298/8024897102_bd064034a3_c.jpg" alt="2012-09-04 Vacation - Maine:Acadia - Day 1 08" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024901061/"><img src="http://farm9.staticflickr.com/8175/8024901061_f6e0efdfdb_c.jpg" alt="2012-09-04 Vacation - Maine:Acadia - Day 1 35" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024900065/"><img src="http://farm9.staticflickr.com/8304/8024900065_8b70e888c6_c.jpg" alt="2012-09-04 Vacation - Maine:Acadia - Day 1 21" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024900337/"><img src="http://farm9.staticflickr.com/8182/8024900337_da4321ff30_c.jpg" alt="2012-09-04 Vacation - Maine:Acadia - Day 1 23" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024899678/"><img src="http://farm9.staticflickr.com/8180/8024899678_b1473d2016_b.jpg" alt="2012-09-04 Vacation - Maine:Acadia - Day 1 40" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024912138/"><img src="http://farm9.staticflickr.com/8312/8024912138_442203f8b3_b.jpg" alt="2012-09-05 Vacation - Maine:Acadia - Day 2 48" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024950192/"><img src="http://farm9.staticflickr.com/8031/8024950192_eef11eb900_c.jpg" alt="2012-09-06 Vacation - Maine:Acadia - Day 3 01" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024952225/"><img src="http://farm9.staticflickr.com/8455/8024952225_c4f2090d1c_c.jpg" alt="2012-09-06 Vacation - Maine:Acadia - Day 3 05" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024951488/"><img src="http://farm9.staticflickr.com/8309/8024951488_bc04cd75f4_b.jpg" alt="2012-09-06 Vacation - Maine:Acadia - Day 3 19" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024953359/"><img src="http://farm9.staticflickr.com/8035/8024953359_b161cb61f6_c.jpg" alt="2012-09-06 Vacation - Maine:Acadia - Day 3 24" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024952106/"><img src="http://farm9.staticflickr.com/8453/8024952106_65f17a4204_c.jpg" alt="2012-09-06 Vacation - Maine:Acadia - Day 3 35" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024952770/"><img src="http://farm9.staticflickr.com/8316/8024952770_6b4fdedf68_c.jpg" alt="2012-09-06 Vacation - Maine:Acadia - Day 3 49" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8025009620/"><img src="http://farm9.staticflickr.com/8181/8025009620_e6e88072cb_c.jpg" alt="2012-09-07 Vacation - Maine:Acadia - Day 4 02" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8025011499/"><img src="http://farm9.staticflickr.com/8041/8025011499_741b16c130_c.jpg" alt="2012-09-07 Vacation - Maine:Acadia - Day 4 03" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8025010290/"><img src="http://farm9.staticflickr.com/8034/8025010290_ea4b7425a9_c.jpg" alt="2012-09-07 Vacation - Maine:Acadia - Day 4 05" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8025010666/"><img src="http://farm9.staticflickr.com/8455/8025010666_f96608aa7b_b.jpg" alt="2012-09-07 Vacation - Maine:Acadia - Day 4 10" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8025012092/"><img src="http://farm9.staticflickr.com/8446/8025012092_86d7e3b9d4_c.jpg" alt="2012-09-07 Vacation - Maine:Acadia - Day 4 28" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Follow Your Procrastination (Or, How I Changed Careers)]]></title>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2012/10/14/follow-your-procrastination/"/>
+    <updated>2012-10-14T11:21:08-04:00</updated>
+    <id>http://ericdodds.github.io/ericdodds/blog/2012/10/14/follow-your-procrastination</id>
+    <content type="html"><![CDATA[<p>A few years ago my friend posted a quote about procrastination:</p>
+
+<blockquote><p>The work you do while you procrastinate is probably the work you should be doing for the rest of your life. <strong>–Jessica Hische</strong></p></blockquote>
+
+<p>Upon first read the concept was interesting, but it&rsquo;s full weight didn&rsquo;t hit me until much later. I think the delayed reaction was due to my professional youth &ndash; at the time I was earning spurs on my first national brand and consuming knowledge from my veteran boss like a dry sponge. The specificity of the industry (marketing) was far less important to me than the unique opportunities I had to carry more responsibility than normal for my age.</p>
+
+<p>After a good while, though, my rate of absorption began to slow. As a wise man <a href="http://gim.ie/5CIK">once said</a>, &ldquo;<em>in this department of life, as in every other, thrills come at the beginning and do not last.</em>&rdquo;</p>
+
+<p>While I still thoroughly enjoyed my day-to-day responsibilities, a flattened learning curve afforded me more time to expand my reading and thinking about marketing, business, and more. Interestingly, my curiosity led me mostly towards the internet, technology, and entrepreneurship.</p>
+
+<p>Hacker News and WIRED became regular reads, I began grabbing lunch with startup addicts like <a href="http://doddcaldwell.com">Dodd Caldwell</a>. I even started teaching myself basic HTML.</p>
+
+<p>I also channeled my off-hours energy (and learning) into attempts to start a few companies. I began to scan my day-to-day experiences for annoyances or problems that I thought technology could iron out. At the time, I also happened to live with one of the most talented developers I&rsquo;ve ever met, and he was happy for a few new challenges to tackle.</p>
+
+<p>In about a years&#8217; time, we both began and killed a rental payment web app and a wedding website service. (It was awesomely deflating to see Wordpress release a <a href="http://weddings.wordpress.com">phenomenal wedding product</a> not too long after we started writing code.)</p>
+
+<p>Around that same time a friend told me that he heard about an extra volunteer spot at a sold-out conference called <a href="http://grok.cc">GROK</a>. I knew that some of the brightest minds in the country gather there to talk about technology, design, and the internet, so I was thrilled to take him up.</p>
+
+<p>GROK did two very important things for me: First, it fully confirmed my passion for the industry, giving me clear direction for my next career move.</p>
+
+<p>Second, it introduced me to a few gentleman named <a href="http://matthewsmith.cc">Matthew Smith</a> and <a href="http://twitter.com/peterbarth">Peter Barth</a>, who would later provide the opportunity for that career move.</p>
+
+<p>In different spheres, both had been forging a foundation of design and technology in the Upstate, Matthew through gathering some of the top talent in the nation and forming <a href="http://coworkgreenville.com">CoWork</a>, and Peter through a startup accelerator called The Next Big Thing.</p>
+
+<p>When our paths crossed at GROK, it just so happens that they were talking about combining forces to form a single organization that shared resources, collaboration, and talent to better position our community as the place for all things tech in the Southeast.</p>
+
+<p>It also just so happens that they needed another team member to manage both execution and promotion of their programs.</p>
+
+<p>At that point, though, the merger was still an idea over lunch. But lunches turned into meetings, and meetings turned into branding work, and <a href="http://theironyard.com">The Iron Yard</a> was born, along with an offer for yours truly.</p>
+
+<p>In November my procrastination will turn into my paycheck, and I couldn&rsquo;t be more excited.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Maine Mountains]]></title>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2012/10/02/maine-mountains-2012/"/>
+    <updated>2012-10-02T12:24:04-04:00</updated>
+    <id>http://ericdodds.github.io/ericdodds/blog/2012/10/02/maine-mountains-2012</id>
+    <content type="html"><![CDATA[<p>The second stop on our Northeastern tour found us in <a href="http://www.nps.gov/acad/index.htm">Acadia National Park</a>. We stayed on both the <a href="http://en.wikipedia.org/wiki/Schoodic_Peninsula">Shoodic Peninsula</a> and <a href="http://en.wikipedia.org/wiki/Mount_Desert_Island">Mount Desert Island</a> sides of the park, and found the Schoodic area to be much quieter and less touristy.</p>
+
+<p>Fun fact: The highest point in Acadia, Cadillac Mountain, is named for <a href="http://en.wikipedia.org/wiki/Antoine_Laumet_de_La_Mothe,_sieur_de_Cadillac">Antoine Laumet de La Mothe, sieur de Cadillac</a>, a French explorer. Along with leaving his namesake in Maine, he helped found the city of Detroit in the early 1700s. An automobile manufacturer honored the effort in 1902 by naming their firm &ldquo;Cadillac&rdquo; and using de La Mothe&rsquo;s coat of arms as their logo.</p>
+
+<p>Here are a few photos from the hills.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8025010417/"><img src="http://farm9.staticflickr.com/8171/8025010417_baffd42254_c.jpg" alt="2012-09-07 Vacation - Maine:Acadia - Day 4 49" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024913511/"><img src="http://farm9.staticflickr.com/8173/8024913511_5316eb7e8b_c.jpg" alt="2012-09-05 Vacation - Maine:Acadia - Day 2 28" /></a></p>
+
+<p>The intersection of mountain and sea in Acadia is extraordinary.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024911090/"><img src="http://farm9.staticflickr.com/8316/8024911090_58ed7d3d08_b.jpg" alt="2012-09-05 Vacation - Maine:Acadia - Day 2 02" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024912028/"><img src="http://farm9.staticflickr.com/8304/8024912028_cedf56b987_b.jpg" alt="2012-09-05 Vacation - Maine:Acadia - Day 2 43" /></a></p>
+
+<p>We missed the show, unfortunately.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8025010639/"><img src="http://farm9.staticflickr.com/8450/8025010639_abf1803149_b.jpg" alt="2012-09-07 Vacation - Maine:Acadia - Day 4 51" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8025012754/"><img src="http://farm9.staticflickr.com/8031/8025012754_d0ab783dbf_c.jpg" alt="2012-09-07 Vacation - Maine:Acadia - Day 4 41" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8025014825/"><img src="http://farm9.staticflickr.com/8452/8025014825_266ab4c850_c.jpg" alt="2012-09-07 Vacation - Maine:Acadia - Day 4 48" /></a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Hampshire]]></title>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2012/09/26/new-hampshire-2012/"/>
+    <updated>2012-09-26T17:18:33-04:00</updated>
+    <id>http://ericdodds.github.io/ericdodds/blog/2012/09/26/new-hampshire-2012</id>
+    <content type="html"><![CDATA[<p>My wife and I recently went on an adventure in the Northeastern US. Our first stop was the <a href="http://en.wikipedia.org/wiki/Franconia_Ridge">Franconia Range</a> in New Hampshire&rsquo;s <a href="http://en.wikipedia.org/wiki/White_Mountains_(New_Hampshire">White Mountain National Forest</a>). The terrain was simultaneously some of the most challenging and beautiful I&rsquo;ve ever experienced. Fun fact: the highest surface wind speed observed by mankind (231mph) was <a href="http://www.mountwashington.org/about/visitor/recordwind.php">recorded in 1934</a> on Mount Washington, the highest peak in both the White Mountains and the Northeastern US.</p>
+
+<p>Here are a few photos from our trip.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024790852/"><img src="http://farm9.staticflickr.com/8309/8024790852_311e88b8a7_c.jpg" alt="2012-09-01 Vacation - New Hampshire Day 1 - 08" /></a></p>
+
+<p>Weather changes dangerously fast in these hills.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024793111/"><img src="http://farm9.staticflickr.com/8321/8024793111_8a1ed9d051_b.jpg" alt="2012-09-01 Vacation - New Hampshire Day 1 - 17" /></a></p>
+
+<p>Steep and rocky.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024793301/"><img src="http://farm9.staticflickr.com/8170/8024793301_e02bd53144_c.jpg" alt="2012-09-01 Vacation - New Hampshire Day 1 - 29" /></a></p>
+
+<p>Note the small hut just under the rock face in the center of the picture.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024793519/"><img src="http://farm9.staticflickr.com/8035/8024793519_62429cbd04_c.jpg" alt="2012-09-01 Vacation - New Hampshire Day 1 - 40" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024792636/"><img src="http://farm9.staticflickr.com/8179/8024792636_57ec704690_c.jpg" alt="2012-09-01 Vacation - New Hampshire Day 1 - 47" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024808108/"><img src="http://farm9.staticflickr.com/8174/8024808108_883198c817_c.jpg" alt="2012-09-02 Vacation - New Hampshire Day 2 - 01" /></a></p>
+
+<p>The lakes of clouds were other-worldly.</p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024808922/"><img src="http://farm9.staticflickr.com/8178/8024808922_40b16b4d1b_c.jpg" alt="2012-09-02 Vacation - New Hampshire Day 2 - 07" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024811259/"><img src="http://farm9.staticflickr.com/8182/8024811259_884a1c3cbc_c.jpg" alt="2012-09-02 Vacation - New Hampshire Day 2 - 10" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024810186/"><img src="http://farm9.staticflickr.com/8174/8024810186_990e556d2d_c.jpg" alt="2012-09-02 Vacation - New Hampshire Day 2 - 20" /></a></p>
+
+<p><a href="http://www.flickr.com/photos/ericdodds/8024810536/"><img src="http://farm9.staticflickr.com/8319/8024810536_cabf7164dc_c.jpg" alt="2012-09-02 Vacation - New Hampshire Day 2 - 23" /></a></p>
+]]></content>
+  </entry>
+  
+</feed>
