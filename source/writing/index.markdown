@@ -25,7 +25,7 @@ You can peruse a fire-hose list of everything on my <a href="/blog">general blog
 
 <h1>Other places</h1>
 
-Some people enjoy reading about the work I've done <a href="http://dontwaitfor.us/"> on my house</a>.
+Some people enjoy reading about the work I've done <a href="http://dontwaitfor.us/">on my house</a>.
 
 I'm responsible for almost all content on The Iron Yard's <a href="http://theironyard.com">website</a> and <a href="http://theironyard.com/blog">blog.</a>
 
