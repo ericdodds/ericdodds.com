@@ -10,7 +10,7 @@ footer: true
 
 My name is Eric Dodds. I live in South Carolina.
 
-I work in technology and play in the mountains. I'm passionate about strong coffee, following Christ, being a loving husband, and changing people's lives through code education. Coffee helps with the last three. 
+I work in technology and play in the mountains. I'm passionate about strong coffee, following Jesus, being a loving husband, and changing people's lives through code education. Coffee helps with the last three. 
 
 I currently run a company called <a href="http://theironyard.com">The Iron Yard</a>, where my job ranges from writing to hiring to overall strategy. Our most recent adventure is building and expanding an <a href="https://vimeo.com/64245253">code and design school</a>. I'm humbled to work with two amazing business partners, <a href="http://twitter.com/masondesu">Mason Stewart</a> and <a href="http://twitter.com/peterbarth">Peter Barth</a>. 
 
