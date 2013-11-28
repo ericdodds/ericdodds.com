@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Life | Eric Dodds]]></title>
-  <link href="http://ericdodds.github.io/ericdodds/blog/categories/life/atom.xml" rel="self"/>
-  <link href="http://ericdodds.github.io/ericdodds/"/>
-  <updated>2013-11-28T11:50:29-05:00</updated>
-  <id>http://ericdodds.github.io/ericdodds/</id>
+  <link href="http://ericdodds.com/blog/categories/life/atom.xml" rel="self"/>
+  <link href="http://ericdodds.com/"/>
+  <updated>2013-11-28T11:52:04-05:00</updated>
+  <id>http://ericdodds.com/</id>
   <author>
     <name><![CDATA[Eric Dodds]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Follow Your Procrastination (Or, How I Changed Careers)]]></title>
-    <link href="http://ericdodds.github.io/ericdodds/blog/2012/10/14/follow-your-procrastination/"/>
+    <link href="http://ericdodds.com/blog/2012/10/14/follow-your-procrastination/"/>
     <updated>2012-10-14T11:21:08-04:00</updated>
-    <id>http://ericdodds.github.io/ericdodds/blog/2012/10/14/follow-your-procrastination</id>
+    <id>http://ericdodds.com/blog/2012/10/14/follow-your-procrastination</id>
     <content type="html"><![CDATA[<p>A few years ago my friend posted a quote about procrastination:</p>
 
 <blockquote><p>The work you do while you procrastinate is probably the work you should be doing for the rest of your life. <strong>–Jessica Hische</strong></p></blockquote>
