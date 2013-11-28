@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Eric Dodds]]></title>
-  <link href="http://ericdodds.com/atom.xml" rel="self"/>
-  <link href="http://ericdodds.com/"/>
-  <updated>2013-11-28T13:01:46-05:00</updated>
-  <id>http://ericdodds.com/</id>
+  <link href="http://ericdodds.github.io/ericdodds/atom.xml" rel="self"/>
+  <link href="http://ericdodds.github.io/ericdodds/"/>
+  <updated>2013-11-28T13:02:42-05:00</updated>
+  <id>http://ericdodds.github.io/ericdodds/</id>
   <author>
     <name><![CDATA[Eric Dodds]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Electric Fence Coreography and Wild Animals]]></title>
-    <link href="http://ericdodds.com/blog/2013/11/27/electric-fence-coreography-and-wild-animals/"/>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2013/11/27/electric-fence-coreography-and-wild-animals/"/>
     <updated>2013-11-27T16:48:00-05:00</updated>
-    <id>http://ericdodds.com/blog/2013/11/27/electric-fence-coreography-and-wild-animals</id>
+    <id>http://ericdodds.github.io/ericdodds/blog/2013/11/27/electric-fence-coreography-and-wild-animals</id>
     <content type="html"><![CDATA[<p><em>These are transcripts of my wife recounting her dreams in stream-of-conscious format shortly after waking up.</em></p>
 
 <p>Food for the team of electric fence choreographers was giant buckets of raw chicken. I told them to get the the chicken in the freezer because that and eggs were the only thing we had to eat. It was cold.</p>
@@ -32,16 +32,16 @@
   
   <entry>
     <title type="html"><![CDATA[Gather and move nested audio files via command line]]></title>
-    <link href="http://ericdodds.com/blog/2013/08/22/gather-and-move-nested-files-via-command-line/"/>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2013/08/22/gather-and-move-nested-files-via-command-line/"/>
     <updated>2013-08-22T15:32:00-04:00</updated>
-    <id>http://ericdodds.com/blog/2013/08/22/gather-and-move-nested-files-via-command-line</id>
+    <id>http://ericdodds.github.io/ericdodds/blog/2013/08/22/gather-and-move-nested-files-via-command-line</id>
     <content type="html"><![CDATA[<p>Over the years my brother has amassed a large music library of 20,000+ songs. He has a great taste for sound, but when it comes to technology his nerd DNA is dwarfed by his <a href="http://www.flickr.com/photos/ericdodds/8693251917/">outdoorsman DNA</a>. After several computer upgrades, multiple iTunes Library restorations and transfers, and no file file management whatsoever, a significant portion of his audio files were corrupt and wouldn&rsquo;t play (via iTunes or in the Finder on his Mac). Music is a very important part of his life, so I set out to help him.</p>
 
 <p>After tinkering for a bit I discovered that running bad files through an mp3 converter fixed the problem—the content was intact, but iTunes was having trouble reading them fully<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
 
 <p>Having discovered the fix for individual files, I faced another problem: those items were spread across a directory with thousands of nested folders, some several levels deep in the hierarchy. There was no way I was going to manually move 20,000 files.</p>
 
-<p><img src="http://ericdodds.com/images/blog/2013/08/nested-audio-files-1.png" alt="Screenshot of nested audio files several folders deep" style="border: 1px solid gray"></p>
+<p><img src="http://ericdodds.github.io/ericdodds/images/blog/2013/08/nested-audio-files-1.png" alt="Screenshot of nested audio files several folders deep" style="border: 1px solid gray"></p>
 
 <p>My first crack at automating the process was finding an mp3 conversion tool that would search through folders, find files, and convert them in place. <a href="http://www.nch.com.au/switch/index.html">Switch</a> seemed like it would do the job initially, but after several failed attempts I figured that some combination of names in the file path was breaking the process. I tried a few more programs unsuccessfully before remembering that I had no need to preserve the existing order as iTunes automatically generates an artist/album/song folder structure when you import new files.</p>
 
@@ -65,7 +65,7 @@
 
 <p>The result: all of the audio files in a single folder, easily digestible by the mp3 converter.</p>
 
-<p><img src="http://ericdodds.com/images/blog/2013/08/nested-audio-files-2.png" alt="Screenshot of nested audio files moved to a single directory" style="border: 1px solid gray"></p>
+<p><img src="http://ericdodds.github.io/ericdodds/images/blog/2013/08/nested-audio-files-2.png" alt="Screenshot of nested audio files moved to a single directory" style="border: 1px solid gray"></p>
 <div class="footnotes">
 <hr/>
 <ol>
@@ -85,9 +85,9 @@
   
   <entry>
     <title type="html"><![CDATA[A Few Spring Photos]]></title>
-    <link href="http://ericdodds.com/blog/2013/05/08/a-few-spring-photos-2013/"/>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2013/05/08/a-few-spring-photos-2013/"/>
     <updated>2013-05-08T17:38:10-04:00</updated>
-    <id>http://ericdodds.com/blog/2013/05/08/a-few-spring-photos-2013</id>
+    <id>http://ericdodds.github.io/ericdodds/blog/2013/05/08/a-few-spring-photos-2013</id>
     <content type="html"><![CDATA[<p>We went to see the circus. The theme song was maddeningly repetitive, but the tightrope walkers made up for it.</p>
 
 <p><a href="http://www.flickr.com/photos/ericdodds/8694366898/"><img src="http://farm9.staticflickr.com/8395/8694366898_2f6f95360a_c.jpg" alt="2013-02-01 February mobile photos 03" /></a></p>
@@ -140,9 +140,9 @@
   
   <entry>
     <title type="html"><![CDATA[A Few Winter Photos]]></title>
-    <link href="http://ericdodds.com/blog/2013/02/23/a-few-winter-photos/"/>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2013/02/23/a-few-winter-photos/"/>
     <updated>2013-02-23T10:55:36-05:00</updated>
-    <id>http://ericdodds.com/blog/2013/02/23/a-few-winter-photos</id>
+    <id>http://ericdodds.github.io/ericdodds/blog/2013/02/23/a-few-winter-photos</id>
     <content type="html"><![CDATA[<p>I carved out a few hours on a rainy morning to collect pictures from the last few months. It&rsquo;s been a good winter.</p>
 
 <hr />
@@ -219,9 +219,9 @@
   
   <entry>
     <title type="html"><![CDATA[Maine Sea]]></title>
-    <link href="http://ericdodds.com/blog/2012/10/25/maine-sea-2012/"/>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2012/10/25/maine-sea-2012/"/>
     <updated>2012-10-25T09:10:10-04:00</updated>
-    <id>http://ericdodds.com/blog/2012/10/25/maine-sea-2012</id>
+    <id>http://ericdodds.github.io/ericdodds/blog/2012/10/25/maine-sea-2012</id>
     <content type="html"><![CDATA[<blockquote><p>The last stop on our Northeastern tour found us in <a href="http://www.nps.gov/acad/index.htm">Acadia National Park</a>. We stayed on both the <a href="http://en.wikipedia.org/wiki/Schoodic_Peninsula">Shoodic Peninsula</a> and <a href="http://en.wikipedia.org/wiki/Mount_Desert_Island">Mount Desert Island</a> sides of the park, and found the Schoodic area to be much quieter and less touristy.</p></blockquote>
 
 <p>I <a href="http://ericdodds.com/maine-mountains-2012/">posted photos</a> of Acadia&rsquo;s mountains previously, but that was only half the story. Maritime heritage is the true treasure of Maine&rsquo;s coastline. I recommend steering clear of Bar Harbor and retreating to active fishing towns like <a href="http://en.wikipedia.org/wiki/Bass_Harbor,_Maine">Bass Harbor</a>, which we found to be quaint, full of history, and a great way to access offshore islands.</p>
@@ -266,9 +266,9 @@
   
   <entry>
     <title type="html"><![CDATA[Follow Your Procrastination (Or, How I Changed Careers)]]></title>
-    <link href="http://ericdodds.com/blog/2012/10/14/follow-your-procrastination/"/>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2012/10/14/follow-your-procrastination/"/>
     <updated>2012-10-14T11:21:08-04:00</updated>
-    <id>http://ericdodds.com/blog/2012/10/14/follow-your-procrastination</id>
+    <id>http://ericdodds.github.io/ericdodds/blog/2012/10/14/follow-your-procrastination</id>
     <content type="html"><![CDATA[<p>A few years ago my friend posted a quote about procrastination:</p>
 
 <blockquote><p>The work you do while you procrastinate is probably the work you should be doing for the rest of your life. <strong>–Jessica Hische</strong></p></blockquote>
@@ -305,9 +305,9 @@
   
   <entry>
     <title type="html"><![CDATA[Maine Mountains]]></title>
-    <link href="http://ericdodds.com/blog/2012/10/02/maine-mountains-2012/"/>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2012/10/02/maine-mountains-2012/"/>
     <updated>2012-10-02T12:24:04-04:00</updated>
-    <id>http://ericdodds.com/blog/2012/10/02/maine-mountains-2012</id>
+    <id>http://ericdodds.github.io/ericdodds/blog/2012/10/02/maine-mountains-2012</id>
     <content type="html"><![CDATA[<p>The second stop on our Northeastern tour found us in <a href="http://www.nps.gov/acad/index.htm">Acadia National Park</a>. We stayed on both the <a href="http://en.wikipedia.org/wiki/Schoodic_Peninsula">Shoodic Peninsula</a> and <a href="http://en.wikipedia.org/wiki/Mount_Desert_Island">Mount Desert Island</a> sides of the park, and found the Schoodic area to be much quieter and less touristy.</p>
 
 <p>Fun fact: The highest point in Acadia, Cadillac Mountain, is named for <a href="http://en.wikipedia.org/wiki/Antoine_Laumet_de_La_Mothe,_sieur_de_Cadillac">Antoine Laumet de La Mothe, sieur de Cadillac</a>, a French explorer. Along with leaving his namesake in Maine, he helped found the city of Detroit in the early 1700s. An automobile manufacturer honored the effort in 1902 by naming their firm &ldquo;Cadillac&rdquo; and using de La Mothe&rsquo;s coat of arms as their logo.</p>
@@ -336,9 +336,9 @@
   
   <entry>
     <title type="html"><![CDATA[New Hampshire]]></title>
-    <link href="http://ericdodds.com/blog/2012/09/26/new-hampshire-2012/"/>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2012/09/26/new-hampshire-2012/"/>
     <updated>2012-09-26T17:18:33-04:00</updated>
-    <id>http://ericdodds.com/blog/2012/09/26/new-hampshire-2012</id>
+    <id>http://ericdodds.github.io/ericdodds/blog/2012/09/26/new-hampshire-2012</id>
     <content type="html"><![CDATA[<p>My wife and I recently went on an adventure in the Northeastern US. Our first stop was the <a href="http://en.wikipedia.org/wiki/Franconia_Ridge">Franconia Range</a> in New Hampshire&rsquo;s <a href="http://en.wikipedia.org/wiki/White_Mountains_(New_Hampshire">White Mountain National Forest</a>). The terrain was simultaneously some of the most challenging and beautiful I&rsquo;ve ever experienced. Fun fact: the highest surface wind speed observed by mankind (231mph) was <a href="http://www.mountwashington.org/about/visitor/recordwind.php">recorded in 1934</a> on Mount Washington, the highest peak in both the White Mountains and the Northeastern US.</p>
 
 <p>Here are a few photos from our trip.</p>
