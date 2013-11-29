@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Electric Fence Coreography and Wild Animals"
+title: "Electric Fence Choreography and Wild Animals"
 date: 2013-11-27 16:48
 comments: true
 categories: 
