@@ -25,7 +25,9 @@ It turns out this process is really good for your brain because of something cal
  
 There's utility in consistently feeling tangible progress and completeness, even if it's in something as simple as doing the dishes—and especially when you don't feel like doing it. That small, low-cost push to wipe the stovetop eventually bleeds over into that project at work that needs that last 10% to go from good to awesome, or that special thing you've been planning to do for someone that you can't seem to get around to. 
 
-Rewarding yourself with a scotch when you're done doesn't hurt either. 
+If we let them, repetitive tasks done well will make us better at the bigger, harder things we face in other areas.
+
+(Rewarding yourself with a scotch when you're finished wiht something doesn't hurt either.)
 
 [^1]: Implicit and Explicit Memory make for interesting studies. Read more in a [Wikipedia article on the subject](http://en.wikipedia.org/wiki/Implicit_memory). 
 
