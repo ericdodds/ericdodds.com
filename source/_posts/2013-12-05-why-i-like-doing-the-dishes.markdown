@@ -17,7 +17,7 @@ It wasn't something that I'd put much thought into before, but the answer came e
 
 I like to clean the kitchen because most other areas of my life are battles that bring both joy and difficulty, whether it's a job or a relationship or staying in shape. Most will last as long as I'm alive. All exhaust me at times. Doing the dishes is one of a few things that I can take care of completely—perfectly—in about 20 minutes (most nights). It's tactical, and every time I rub a drying cloth and put a dish away I can literally feel myself making progress. 
 
-Don't get me wrong—I don't jump up and down at the chance to wield a fresh scrubber. In fact, most times after a long day there are things I'd much rather do than face the carnage of a hardware-heavy meal. But I *do* find deep satisfaction in starting and finishing a project quickly and flawlessly, even if the process isn't fun. 
+Don't get me wrong—I don't jump up and down at the chance to wield a fresh scrub brush. In fact, most times after a long day there are things I'd much rather do than face the carnage of a hardware-heavy meal. But I *do* find deep satisfaction in starting and finishing a project quickly and flawlessly, even if the process isn't fun. 
 
 It turns out this process is really good for your brain because of something called Implicit Memory.[^1] 
 
