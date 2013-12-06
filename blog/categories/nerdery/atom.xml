@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Nerdery | Eric Dodds]]></title>
   <link href="http://ericdodds.github.io/ericdodds/blog/categories/nerdery/atom.xml" rel="self"/>
   <link href="http://ericdodds.github.io/ericdodds/"/>
-  <updated>2013-12-05T19:37:39-05:00</updated>
+  <updated>2013-12-05T19:39:33-05:00</updated>
   <id>http://ericdodds.github.io/ericdodds/</id>
   <author>
     <name><![CDATA[Eric Dodds]]></name>
@@ -34,14 +34,12 @@
 
 <p>We discovered that using a unix find command, file name specification, and move command for each individual file type worked like a charm.</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>//Use this command to find and move a specific kind of file in a directory.
-</span><span class='line'>//This command searches recursively through nested folders.&lt;/p>
-</span><span class='line'>
-</span><span class='line'>&lt;p>$ find ~/old-music-folder -name &lsquo;*.mp3&rsquo; -exec mv {} ~/new-music-folder \;</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock %}
+//Use this command to find and move a specific kind of file in a directory.
+//This command searches recursively through nested folders.</p>
+
+<p>$ find ~/old-music-folder -name &lsquo;*.mp3&rsquo; -exec mv {} ~/new-music-folder \;
+{% endcodeblock %}</p>
 
 <p><em><a href="https://gist.github.com/ericdodds/6306638.js">Here&rsquo;s a link to the gist on GitHub.</a></em></p>
 
