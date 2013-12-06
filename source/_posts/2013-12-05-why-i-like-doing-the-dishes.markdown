@@ -27,7 +27,7 @@ There's utility in consistently feeling tangible progress and completeness, even
 
 If we let them, small things repeatedly accomplished with excellence will make us better at the bigger, harder things we face in other areas.
 
-(Rewarding yourself with a scotch when you're finished wiht something doesn't hurt either.)
+(Rewarding yourself with a scotch when you're finished doesn't hurt either.)
 
 [^1]: Implicit and Explicit Memory make for interesting studies. Read more in a [Wikipedia article on the subject](http://en.wikipedia.org/wiki/Implicit_memory). 
 
