@@ -4,7 +4,6 @@ title: "Why I Like Doing the Dishes"
 date: 2013-12-05 19:28
 comments: true
 categories: 
-- Life
 - Work
 ---
 
