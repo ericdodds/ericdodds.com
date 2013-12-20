@@ -21,7 +21,7 @@ You can peruse a fire-hose list of everything on my <a href="/blog">general blog
 
 <a href="/blog/categories/adventures/">Adventures</a> - photo-based retelling of travels and such
 
-<a href="/blog/categories/nerdery/">Nerdery</a> - rare instances of me sharing useful code stuffs
+<a href="/blog/categories/nerdery/">Nerdery</a> - code, discoveries, and other intersting stuffs
 
 <h1>Other places</h1>
 
