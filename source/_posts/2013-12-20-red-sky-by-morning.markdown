@@ -17,7 +17,7 @@ The atmospheric specifics can get a bit heady, but the phrase actually proves tr
 
 > The rhyme is a rule of thumb for weather forecasting, dating back over 2,000 years, based on the reddish glow of the morning or evening sky, caused by haze or clouds related to storms in the region. Due to the rotation of the Earth, storm systems travel from west to east in the mid-latitudes. A reddish sunrise, caused by particles suspended in the air, often foreshadows an approaching storm, which will be arriving from the West, within the day. Conversely, a reddish sunset often indicates that a storm system is on the west side (same side as the sunset), travelling away from the viewer.[^1]
 
-But, it turns out this is only true for latitudes where wind currents move westward (westerlies). Those regions are towards the top and bottom of the earth. In the middle of the planet, where the easterly trade winds blow, the effect is opposite.[^2] 
+But, it turns out this is only true for latitudes where wind currents move from west to east (westerlies). Those regions are further towards the top and bottom of the earth. In the middle of the planet, where the easterly trade winds blow, the effect is opposite.[^2] 
 
 <img src="/images/blog/2013/12/global-winds.jpg">
 
