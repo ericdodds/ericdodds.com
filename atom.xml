@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Dodds]]></title>
   <link href="http://ericdodds.github.io/ericdodds/atom.xml" rel="self"/>
   <link href="http://ericdodds.github.io/ericdodds/"/>
-  <updated>2013-12-05T19:39:31-05:00</updated>
+  <updated>2013-12-20T09:51:10-05:00</updated>
   <id>http://ericdodds.github.io/ericdodds/</id>
   <author>
     <name><![CDATA[Eric Dodds]]></name>
@@ -12,6 +12,56 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Red Sky by Morning]]></title>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2013/12/20/red-sky-by-morning/"/>
+    <updated>2013-12-20T08:46:00-05:00</updated>
+    <id>http://ericdodds.github.io/ericdodds/blog/2013/12/20/red-sky-by-morning</id>
+    <content type="html"><![CDATA[<p>The sky outside my kitchen window this morning was a brilliant pinkish red. As I grabbed a pair of shoes so I could enjoy the view outside, I remembered a phrase I&rsquo;d heard many times before:</p>
+
+<p><strong>&ldquo;Red sky by night, sailors delight. Red sky by morning, sailors take warning.&rdquo;</strong></p>
+
+<p>I checked the forecast later, and sure enough, rain was on the way. I decided to look at the science behind the saying to see if the adage was a reliable meteoralogical predictor.</p>
+
+<p>The atmospheric specifics can get a bit heady, but the phrase actually proves true in a certain cross section of the planet. Here&rsquo;s a simple explanation from Wikipedia:</p>
+
+<blockquote><p>The rhyme is a rule of thumb for weather forecasting, dating back over 2,000 years, based on the reddish glow of the morning or evening sky, caused by haze or clouds related to storms in the region. Due to the rotation of the Earth, storm systems travel from west to east in the mid-latitudes. A reddish sunrise, caused by particles suspended in the air, often foreshadows an approaching storm, which will be arriving from the West, within the day. Conversely, a reddish sunset often indicates that a storm system is on the west side (same side as the sunset), travelling away from the viewer.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p></blockquote>
+
+<p>But, it turns out this is only true for latitudes where wind currents move westward (westerlies). Those regions are towards the top and bottom of the earth. In the middle of the planet, where the easterly trade winds blow, the effect is opposite.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p>
+
+<p><img src="http://ericdodds.github.io/ericdodds/images/blog/2013/12/global-winds.jpg"></p>
+
+<p>So, here in South Carolina, it&rsquo;s going to be a rainy weekend.</p>
+
+<p><em>Related nerdy stuff:</em></p>
+
+<p>The phrase has been used throughout history. Shakespeare used it in his poem <em>Venus and Andronis</em>:</p>
+
+<blockquote><p>“Like a red morn that ever yet betokened,<br>
+Wreck to the seaman, tempest to the field,<br>
+Sorrow to the shepherds, woe unto the birds,<br>
+Gusts and foul flaws to herdmen and to herds.”<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup></p></blockquote>
+
+<p>Jesus used the phrase in the Bible, quoted in Matthew 16:2-3:</p>
+
+<blockquote><p>He answered them, “When it is evening, you say, ‘It will be fair weather, for the sky is red.’ And in the morning, ‘It will be stormy today, for the sky is red and threatening.’ You know how to interpret the appearance of the sky, but you cannot interpret the signs of the times.<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup></p></blockquote>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Read the [full Wikipedia article, <a href="http://en.wikipedia.org/wiki/Red_sky_at_morning">&ldquo;Red sky at morning&rdquo;</a>. <a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>Dig into the nitty gritty of atmospheric particles and more <a href="http://www.esrl.noaa.gov/gmd/grad/about/redsky/">on the National Oceanic and Atmospheric Administration&rsquo;s site</a>.   <a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p>You can read the entire poem, Venus and Andronis, <a href="http://shakespeare.mit.edu/Poetry/VenusAndAdonis.html">on MIT&rsquo;s website</a>. <a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+<li id="fn:4">
+<p>Check out <a href="http://www.esvbible.org/Matthew+16/">the entire chapter of Matthew 16</a>. <a href="#fnref:4" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Why I Like Doing the Dishes]]></title>
