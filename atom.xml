@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Dodds]]></title>
   <link href="http://ericdodds.github.io/ericdodds/atom.xml" rel="self"/>
   <link href="http://ericdodds.github.io/ericdodds/"/>
-  <updated>2013-12-20T09:53:16-05:00</updated>
+  <updated>2013-12-21T11:29:53-05:00</updated>
   <id>http://ericdodds.github.io/ericdodds/</id>
   <author>
     <name><![CDATA[Eric Dodds]]></name>
@@ -28,9 +28,13 @@
 
 <blockquote><p>The rhyme is a rule of thumb for weather forecasting, dating back over 2,000 years, based on the reddish glow of the morning or evening sky, caused by haze or clouds related to storms in the region. Due to the rotation of the Earth, storm systems travel from west to east in the mid-latitudes. A reddish sunrise, caused by particles suspended in the air, often foreshadows an approaching storm, which will be arriving from the West, within the day. Conversely, a reddish sunset often indicates that a storm system is on the west side (same side as the sunset), travelling away from the viewer.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p></blockquote>
 
-<p>But, it turns out this is only true for latitudes where wind currents move from west to east (westerlies). Those regions are further towards the top and bottom of the earth. In the middle of the planet, where the easterly trade winds blow, the effect is opposite.<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p>
+<p>But, it turns out this is only true for latitudes where wind currents move from west to east (westerlies)—between 23°26&#8217;22&#8221; North and 66°33&#8217;39&#8221; North, and between 23°26&#8217;22&#8221; South and 66°33&#8217;39&#8221; South. Those regions are further towards the top and bottom of the earth. In the middle of the planet, where the easterly trade winds blow, the effect is opposite.</p>
 
 <p><img src="http://ericdodds.github.io/ericdodds/images/blog/2013/12/global-winds.jpg"></p>
+
+<p>This can get a little confusing when you think about it too long. The NOAA website has a helpful explanation—just remember that low pressure means bad weather and high pressure means good weather.</p>
+
+<blockquote><p>Picture yourself on a ship in the middle of a mid-latitude ocean. There the wind (and thus storm paths) is from west to east. It is morning and you are watching the sunrise. It is red. Since it is morning you are looking east, and the red sky indicates that there is high pressure there. Because you are in the mid-latitudes, the high is moving eastward&mdash;away from you. That could only mean that a low, and very likely an associated storm, is moving toward you from the west.  Sailor take warning! Now picture yourself watching the sunset from the ship, and the western sky is red.  That means that an area of high pressure is to your west, the westerlies are moving it toward you, and good weather is on the way&mdash;sailor&rsquo;s delight! <sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup></p></blockquote>
 
 <p>So, here in South Carolina, it&rsquo;s going to be a rainy weekend.</p>
 
@@ -50,7 +54,7 @@ Gusts and foul flaws to herdmen and to herds.”<sup id="fnref:3"><a href="#fn:3
 <hr/>
 <ol>
 <li id="fn:1">
-<p>Read the [full Wikipedia article, <a href="http://en.wikipedia.org/wiki/Red_sky_at_morning">&ldquo;Red sky at morning&rdquo;</a>. <a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<p>Read the full Wikipedia article, <a href="http://en.wikipedia.org/wiki/Red_sky_at_morning">&ldquo;Red sky at morning&rdquo;</a>. <a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
 <li id="fn:2">
 <p>Dig into the nitty gritty of atmospheric particles and more <a href="http://www.esrl.noaa.gov/gmd/grad/about/redsky/">on the National Oceanic and Atmospheric Administration&rsquo;s site</a>.   <a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
 <li id="fn:3">
