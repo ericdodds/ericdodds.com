@@ -17,9 +17,13 @@ The atmospheric specifics can get a bit heady, but the phrase actually proves tr
 
 > The rhyme is a rule of thumb for weather forecasting, dating back over 2,000 years, based on the reddish glow of the morning or evening sky, caused by haze or clouds related to storms in the region. Due to the rotation of the Earth, storm systems travel from west to east in the mid-latitudes. A reddish sunrise, caused by particles suspended in the air, often foreshadows an approaching storm, which will be arriving from the West, within the day. Conversely, a reddish sunset often indicates that a storm system is on the west side (same side as the sunset), travelling away from the viewer.[^1]
 
-But, it turns out this is only true for latitudes where wind currents move from west to east (westerlies). Those regions are further towards the top and bottom of the earth. In the middle of the planet, where the easterly trade winds blow, the effect is opposite.[^2] 
+But, it turns out this is only true for latitudes where wind currents move from west to east (westerlies)—between 23°26'22" North and 66°33'39" North, and between 23°26'22" South and 66°33'39" South. Those regions are further towards the top and bottom of the earth. In the middle of the planet, where the easterly trade winds blow, the effect is opposite.
 
 <img src="/images/blog/2013/12/global-winds.jpg">
+
+This can get a little confusing when you think about it too long. The NOAA website has a helpful explanation—just remember that low pressure means bad weather and high pressure means good weather. 
+
+> Picture yourself on a ship in the middle of a mid-latitude ocean. There the wind (and thus storm paths) is from west to east. It is morning and you are watching the sunrise. It is red. Since it is morning you are looking east, and the red sky indicates that there is high pressure there. Because you are in the mid-latitudes, the high is moving eastward--away from you. That could only mean that a low, and very likely an associated storm, is moving toward you from the west.  Sailor take warning! Now picture yourself watching the sunset from the ship, and the western sky is red.  That means that an area of high pressure is to your west, the westerlies are moving it toward you, and good weather is on the way--sailor's delight! [^2] 
 
 So, here in South Carolina, it's going to be a rainy weekend. 
 
@@ -36,7 +40,7 @@ Jesus used the phrase in the Bible, quoted in Matthew 16:2-3:
 
 > He answered them, “When it is evening, you say, ‘It will be fair weather, for the sky is red.’ And in the morning, ‘It will be stormy today, for the sky is red and threatening.’ You know how to interpret the appearance of the sky, but you cannot interpret the signs of the times.[^4]
 
-[^1]: Read the [full Wikipedia article, ["Red sky at morning"](http://en.wikipedia.org/wiki/Red_sky_at_morning). 
+[^1]: Read the full Wikipedia article, ["Red sky at morning"](http://en.wikipedia.org/wiki/Red_sky_at_morning). 
 [^2]: Dig into the nitty gritty of atmospheric particles and more [on the National Oceanic and Atmospheric Administration's site](http://www.esrl.noaa.gov/gmd/grad/about/redsky/).   
 [^3]: You can read the entire poem, Venus and Andronis, [on MIT's website](http://shakespeare.mit.edu/Poetry/VenusAndAdonis.html). 
 [^4]: Check out [the entire chapter of Matthew 16](http://www.esvbible.org/Matthew+16/). 
