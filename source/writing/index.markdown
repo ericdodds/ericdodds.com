@@ -9,6 +9,8 @@ footer: true
 
 I really enjoy writing, and a few people have told me that I'm pretty good at it. I cover a variety of topics, and will happily write posts in response to questions—just <a href="mailto:eric@ericdodds.com?subject=I have a question, Mr. Dodds">send an email</a> to ask. 
 
+<h1>Blog</h1>
+
 You can peruse a fire-hose list of everything on my <a href="/blog">general blog feed</a>, or browse by category. 
 
 <h1>Categories</h1>
