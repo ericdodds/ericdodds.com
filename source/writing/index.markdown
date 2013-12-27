@@ -23,6 +23,8 @@ You can peruse a fire-hose list of everything on my <a href="/blog">general blog
 
 <a href="/blog/categories/nerdery/">Nerdery</a> - rare instances of me sharing useful code stuffs
 
+<a href="/blog/categories/nerdery/">Nerdery</a> - rare instances of me sharing useful code stuffs
+
 <h1>Other places</h1>
 
 Some people enjoy reading about the work I've done <a href="http://dontwaitfor.us/"> on my house</a>.
