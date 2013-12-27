@@ -13,15 +13,15 @@ You can peruse a fire-hose list of everything on my <a href="/blog">general blog
 
 <h1>Categories</h1>
 
-<a href="/blog/categories/julies-dreams/">Julie's Dreams</a> - my wife has wild dreams, and I record them 
-
 <a href="/blog/categories/work/">Work</a> - talk of business, motivation, productivity and the like
+
+<a href="/blog/categories/nerdery/">Nerdery</a> - code, discoveries, and other intersting stuffs
 
 <a href="/blog/categories/life/">Life</a> - happenings in the life of the Dodds family
 
 <a href="/blog/categories/adventures/">Adventures</a> - photo-based retelling of travels and such
 
-<a href="/blog/categories/nerdery/">Nerdery</a> - code, discoveries, and other intersting stuffs
+<a href="/blog/categories/julies-dreams/">Julie's Dreams</a> - my wife has wild dreams, and I record them 
 
 <h1>Other places</h1>
 
