@@ -183,14 +183,12 @@ body > div {
 
 article > header {
     background: #f7f7f7;
-    padding-top: 22px;
-    padding-bottom: 22px;
+    padding: 22px 55px;
     margin-left: -55px;
     margin-right: -55px;
 }
 
 article header h1 {
-    padding-left: 55px;
     font-weight: normal;
 }
 
@@ -306,8 +304,7 @@ ul, ol {
 
     article > header {
         // background: #f7f7f7;
-        // padding-top: 22px;
-        // padding-bottom: 22px;
+        padding: 22px 35px;
         margin-left: -35px;
         margin-right: -35px;
     }
