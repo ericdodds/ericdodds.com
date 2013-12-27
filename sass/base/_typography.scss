@@ -109,10 +109,11 @@ big { font-size: 1.2em; }
 
 article blockquote {
   $bq-margin: 1.2em;
-  font-style: italic;
+  font-style: none;
+  color: rgb(160, 160, 160);
   position: relative;
-  font-size: 1.2em;
-  line-height: 1.5em;
+  font-size: .96em;
+  line-height: 1.4em;
   padding-left: 1em;
   border-left: 4px solid rgba($text-color-light, .5);
   cite {
@@ -123,6 +124,17 @@ article blockquote {
   @media only screen and (min-width: 992px) {
     padding-left: 1.5em;
     border-left-width: 4px;
+  }
+}
+
+.footnotes {
+  color: rgb(160, 160, 160);
+  font-size: .96em;
+  hr {
+    margin-bottom: .8em;
+  }
+  p {
+    margin-bottom: .5em;
   }
 }
 
