@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Dodds]]></title>
   <link href="http://ericdodds.github.io/ericdodds/atom.xml" rel="self"/>
   <link href="http://ericdodds.github.io/ericdodds/"/>
-  <updated>2013-12-27T16:13:49-05:00</updated>
+  <updated>2014-01-04T10:31:51-05:00</updated>
   <id>http://ericdodds.github.io/ericdodds/</id>
   <author>
     <name><![CDATA[Eric Dodds]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A Shared Calendar for Political Elections]]></title>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2014/01/04/a-shared-calendar-for-political-elections/"/>
+    <updated>2014-01-04T10:14:00-05:00</updated>
+    <id>http://ericdodds.github.io/ericdodds/blog/2014/01/04/a-shared-calendar-for-political-elections</id>
+    <content type="html"><![CDATA[<p>Lately I&rsquo;ve been taking dedicated time to think through different areas of my life—family, finances, spirtuality, etc. One area where I&rsquo;m much less proactive than I&rsquo;d like to admit is civic duty (a fancy way of saying I don&rsquo;t research my representatives or prepare for elections well).</p>
+
+<p>Many people my age (late 20s) are burned out on politics in general. The flow of constant, extreme polarization wears me out too.</p>
+
+<p>Frustrated or not, though, I live in a country where I can make my voice heard at the polls, and that&rsquo;s an incredible privilige. I&rsquo;d be remiss not to take advantage of it.</p>
+
+<p>So, this year I decided to start by plotting out election dates on a calendar. There aren&rsquo;t many, but knowing they&rsquo;re on the horizen will help me do research and prepare to cast a vote.</p>
+
+<p>Interestingly, or maybe not, I struggled to find a well-done calendar of those dates (let me know if this resource exists). What I <em>really</em> wanted was an iCal or XML URL I could add to my calendar automatically.</p>
+
+<p>Even though there are only a handful of dates this year, I went ahead and added them to Google Calendar and made it public. I&rsquo;ll keep this updated for SC General Elections as well as Greenville, SC County elections and Greenville, SC Municipal Elections.</p>
+
+<p>Here&rsquo;s the calendar in&hellip;</p>
+
+<ul>
+<li><a href="https://www.google.com/calendar/ical/unaunjc6lsf3e2ddqktmmcm4k4%40group.calendar.google.com/public/basic.ics">iCal format</a></li>
+<li><a href="https://www.google.com/calendar/feeds/unaunjc6lsf3e2ddqktmmcm4k4%40group.calendar.google.com/public/basic">XML format</a></li>
+<li><a href="https://www.google.com/calendar/embed?src=unaunjc6lsf3e2ddqktmmcm4k4%40group.calendar.google.com&amp;ctz=America/New_York">HTML link</a></li>
+</ul>
+
+
+<p>Hopefully this will help others like me keep better tabs on elections and who is representing me in Washington, South Carolina and Greenville.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[A Kid, a Jeep and The Meaning of Greatness]]></title>
