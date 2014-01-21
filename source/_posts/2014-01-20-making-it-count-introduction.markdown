@@ -31,5 +31,7 @@ There's been a huge amount of writing on this subject. Some of the pieces I've r
 
 For me, figuring this stuff out is extremely important. I've worked alongside too many people who have given up too much in the work and looked back in regret. Many people are asking these questions and the answers are different for everyone based on their personality and circumstances. 
 
-As I've grown, learned and made mistakes, people who took the time to share honestly from their experiences have significantly reduced the learning curve for me and steered my feet away from many a pitfall. Hopefully someone following along as I do the same will make a difference in their life. 
+As I've grown and made mistakes, people who took the time to share honestly from their experiences have significantly reduced the learning curve for me and steered my feet away from many a pitfall. 
+
+As I do the same, hopefully someone following along will reap helpful learnings for their journey. 
 
