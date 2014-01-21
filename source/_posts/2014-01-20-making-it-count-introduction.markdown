@@ -15,9 +15,9 @@ My interactions with them have produced the same question enough times for me to
 
 > How do you get everything done?
 
-Being asked a question about productivity and work gave me pause for a few reasons. First, get a whole lot done at The Iron Yard—more than average, I'd say—but I don't generally *feel* like we're some super-productive anomaly. I feel like we're people who put 110% into work that we love. 
+Being asked about productivity and work gave me pause for a few reasons. First, we do get a whole lot done at The Iron Yard—more than average, I'd say—but I don't generally *feel* like we're some super-productive anomaly. I feel like we're people who put 110% into work that we love. 
 
-Secondly, and more importantly, the questions made me think about the non-work aspects of our lives that most people don't see, like family. 
+Secondly, and more importantly, the question made me think about the non-work aspects of our lives that most people don't see, like family. 
 
 Accomplishing a significant amount of anything (and doing it well) requires sacrifice. We are all aware of this from a young age: getting high marks in school means you forgo some amount of play time. This principle of sacrifice and reward follows us for the rest of our lives. 
 
