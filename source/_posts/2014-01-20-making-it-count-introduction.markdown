@@ -23,15 +23,15 @@ Accomplishing a significant amount of anything (and doing it well) requires sacr
 
 As a result, on some level, when someone asks you how you "get everything done," they are asking "what are you sacrificing?"
 
-I'm going to answer that question (for me) over several articles on this blog. Fortunately, there's a whole lot more to it than answering that one question. Accomplishing great things in life, in work and family, isn't just about sacrifice. I'll cover things I've learned about time management, sleep, health, process, email, task-management, knowing others well, knowing yourself well and much more. 
+I'm going to answer that question (for me) over several articles on this blog. Fortunately, there's a whole lot more to it than answering just that one question. Accomplishing great things in life, in work and family, isn't just about sacrifice. I'll cover things I've learned about time management, sleep, health, process, email, task-management, knowing others well, knowing yourself well and much more. 
 
 **Why write about these things?**
 
-There's been a huge amount of writing on this subject. Some of the pieces I've read are akin to entrepreneurial self-therapy through writing. (That can be a good thing—writing can force you to really think through things.) The amount of snake-oil productivity and self-help advice out there is sickening. 
+There's been a huge amount written on this subject. Some of the pieces I've read are akin to entrepreneurial self-therapy through writing. That can be a good thing—writing can force you to really think through things. At the same time, the amount of snake-oil productivity and self-help advice out there is sickening. 
 
-For me, figuring this stuff out is extremely important. I've worked alongside too many people who have given up too much in the work and looked back in regret. Many people are asking these questions and the answers are different for everyone based on their personality and circumstances. 
+For me, figuring this stuff out is extremely important. I've worked alongside too many people who have given up too much in the name work and looked back in regret. Many people are asking these questions and the answers will be different based on their personality and circumstances. 
 
 As I've grown and made mistakes, people who took the time to share honestly from their experiences have significantly reduced the learning curve for me and steered my feet away from many a pitfall. 
 
-As I do the same, hopefully someone following along will reap helpful learnings for their journey. 
+As I do the same, hopefully someone following along will reap similar lessons on their journey. 
 
