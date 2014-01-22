@@ -9,7 +9,7 @@ footer: true
 
 <h1>Blog</h1>
 
-You can peruse a fire-hose list of everything on my <a href="/blog">general blog feed</a>, or browse by category. I'll happily write posts in response to questions—just <a href="mailto:eric@ericdodds.com?subject=I have a question, Mr. Dodds">send an email</a> to ask. 
+You can peruse a fire-hose feed of posts <a href="/blog">on my blog</a>, or browse by category. I'll happily write posts in response to questions—just <a href="mailto:eric@ericdodds.com?subject=I have a question, Mr. Dodds">send an email</a> to ask. 
 
 <h1>Categories</h1>
 
