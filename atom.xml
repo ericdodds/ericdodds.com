@@ -4,7 +4,7 @@
   <title><![CDATA[Eric Dodds]]></title>
   <link href="http://ericdodds.github.io/ericdodds/atom.xml" rel="self"/>
   <link href="http://ericdodds.github.io/ericdodds/"/>
-  <updated>2014-01-22T03:20:04-05:00</updated>
+  <updated>2014-03-18T06:41:33-04:00</updated>
   <id>http://ericdodds.github.io/ericdodds/</id>
   <author>
     <name><![CDATA[Eric Dodds]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[How To Remove a Stuck or Seized Maxle on Rockshox Thru-axle Forks]]></title>
+    <link href="http://ericdodds.github.io/ericdodds/blog/2014/03/18/how-to-remove-a-stuck-maxle-on-rockshox-thru-axle-forks/"/>
+    <updated>2014-03-18T06:18:00-04:00</updated>
+    <id>http://ericdodds.github.io/ericdodds/blog/2014/03/18/how-to-remove-a-stuck-maxle-on-rockshox-thru-axle-forks</id>
+    <content type="html"><![CDATA[<p>This post is a bit &lsquo;off topic&rsquo; for the other content on my blog, so here&rsquo;s a brief explanation:</p>
+
+<p><em>When I&rsquo;m not working on the Internet, I like to take on analog activities like going to the mountains or working in my shop. Mountain biking has long been a favorite thing to do, and because I do all of my own maintenance, satisfies my interest in both adventure and mechanical things.</em></p>
+
+<p><em>I ran into a problem with my bike earlier this year and couldn&rsquo;t find a solution anywhere I looked. I took a gamble with some penetrating oil and a hammer and turned out to be right. This post is for everyone who has or will face the same frustration.</em></p>
+
+<p>Not long ago I was changing the tires on my 2010 Specialized Pitch Pro. When I started to remove the Maxle from the Rockshox Pike (351) fork, it simply wouldn&rsquo;t come loose. Whenever I loosened it each side of the fork would spread apart—to the point where I thought I was going to break something.</p>
+
+<p>I do 99% of the work on my bike, but I conceded and took her to a shop to get a second opinion. After a few days of fruitless fiddling, the mechanic told me that he called the manufacturer, who said that the parts needed to be cut off, meaning I would lose the fork. I wasn&rsquo;t happy.</p>
+
+<p>Not satisfied, I turned back to the internet (which I had already scoured) and <a href="http://www.mtbpigs.co.uk/forum/index.php?topic=1715.0">a forum post</a> that suggested:</p>
+
+<blockquote><p>The inner races of the bearings will have rusted onto the maxle.  Mine has tried to do this in the past. WD40 is an obvious start point (if you haven&rsquo;t been there already) you need to let it soak in for 24 hours. And go and top it up with a couple of additional squirts while it&rsquo;s soaking. Then to free it, you really need to start hitting it :(  Unscrew it as many turns as you are comfortable with. I don&rsquo;t think you want to splay the forks too far! Support the quick release side fork leg and hammer on the maxle from the opposite side. Preferably with a soft faced mallet.</p></blockquote>
+
+<p>Beating your hub and thru-axle with a hammer isn&rsquo;t the most comforting thing, but I had nothing to lose, so I gave it a try. The smart people on the forum were right. A 24 hour soak and several swings of the hammer did the trick.</p>
+
+<p>The forum wasn&rsquo;t too clear on how hard you actually have to hit it—I <em>beat the hell out of the maxle</em> before it started to break free. It was unnerving. If you&rsquo;ve soaked it in penetrating oil long enough, though, just persevere and it will eventually yield.</p>
+
+<p>They were also right about the races rusting to the maxle. The circumference of the spots on the axle where the races &lsquo;clamp&rsquo; around it can start to rust over time if you don&rsquo;t keep the assembly properly lubricated. Here&rsquo;s the detail of what that looks like:</p>
+
+<p><img src="http://ericdodds.github.io/ericdodds/images/blog/2014/03/stuck-maxle-rockshox-fork-detail.jpg" alt="Fix stuck or seized maxle on Rockshox thru-axle forks" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Making it Count: Introduction]]></title>
